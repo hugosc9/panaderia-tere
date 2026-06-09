@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panadería Tere Rubí — Pan, dulces y encargos artesanos</title>
+<meta name="description" content="Panadería Tere en Rubí (Barcelona). Pan recién hecho, tartas de cumpleaños, catering y bandejas por encargo. Llama al 936 975 701 o pásate por la tienda.">
+<link rel="canonical" href="https://panaderia-tere-rubi.netlify.app/">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Panadería Tere">
+<meta name="geo.region" content="ES-CT">
+<meta name="geo.placename" content="Rubí, Barcelona">
+<meta name="geo.position" content="41.489370;2.036200">
+<meta name="ICBM" content="41.489370, 2.036200">
+<!-- Favicon -->
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="180x180" href="/favicon.png">
+<link rel="apple-touch-icon" href="/favicon.png">
+<meta name="theme-color" content="#2E1F14">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Panadería Tere">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="Panadería Tere Rubí — Pan, dulces y encargos artesanos">
+<meta property="og:description" content="Pan recién hecho cada mañana en Rubí desde 2002. Desayunos, meriendas, tartas de cumpleaños y catering dulce y salado por encargo.">
+<meta property="og:url" content="https://panaderia-tere-rubi.netlify.app/">
+<meta property="og:image" content="https://panaderia-tere-rubi.netlify.app/assets/cat/p13.jpg">
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Panadería Tere · Rubí">
+<meta name="twitter:description" content="Pan artesano, dulces y catering por encargo en Rubí desde 2002.">
+<meta name="twitter:image" content="https://panaderia-tere-rubi.netlify.app/assets/cat/p13.jpg">
+<!-- Datos estructurados (SEO local) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Bakery",
+  "name": "Panadería Tere",
+  "alternateName": "Forn de Pa - Granja Tere",
+  "description": "Panadería y granja en Rubí desde 2002. Pan recién hecho, desayunos, meriendas, tartas de cumpleaños, catering y bandejas dulces y saladas por encargo.",
+  "url": "https://panaderia-tere-rubi.netlify.app/",
+  "telephone": "+34936975701",
+  "image": "https://panaderia-tere-rubi.netlify.app/favicon.png",
+  "logo": "https://panaderia-tere-rubi.netlify.app/assets/logo-tere.png",
+  "priceRange": "€",
+  "foundingDate": "2002",
+  "currenciesAccepted": "EUR",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Carrer de Víctor Balaguer, 2",
+    "addressLocality": "Rubí",
+    "addressRegion": "Barcelona",
+    "postalCode": "08191",
+    "addressCountry": "ES"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 41.489370,
+    "longitude": 2.036200
+  },
+  "sameAs": [
+    "https://www.instagram.com/panaderiatere/"
+  ],
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "07:30", "closes": "13:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "16:00", "closes": "19:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "07:30", "closes": "13:30" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "08:00", "closes": "13:00" }
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500;1,9..144,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F7F1E6;
+    --paper-2:#EFE4D1;
+    --paper-3:#E7D8BF;
+    --espresso:#2A1B11;
+    --espresso-2:#45301E;
+    --clay:#BB4F2C;
+    --clay-soft:#D2734C;
+    --honey:#D99A45;
+    --ink:#33271B;
+    --muted:#7A6650;
+    --white:#FFFCF6;
+    --line:rgba(42,27,17,.12);
+    --line-2:rgba(42,27,17,.07);
+    --shadow:0 22px 60px -18px rgba(42,27,17,.30);
+    --shadow-sm:0 12px 30px -12px rgba(42,27,17,.22);
+    --ease:cubic-bezier(.23,1,.32,1);
+    --ease-io:cubic-bezier(.77,0,.175,1);
+    --container:1200px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+  body{
+    font-family:'Manrope',system-ui,sans-serif;
+    background:var(--paper);
+    color:var(--ink);
+    line-height:1.7;
+    overflow-x:hidden;
+    -webkit-font-smoothing:antialiased;
+  }
+  /* grano sutil sobre todo */
+  body::before{
+    content:'';position:fixed;inset:0;z-index:9999;pointer-events:none;opacity:.04;mix-blend-mode:multiply;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  h1,h2,h3,h4,.serif{font-family:'Fraunces',Georgia,serif;font-weight:600;line-height:1.05;letter-spacing:-.012em}
+  a{color:inherit;text-decoration:none}
+  img{max-width:100%;display:block}
+  ::selection{background:var(--clay-soft);color:var(--white)}
+  ::-webkit-scrollbar{width:11px;height:11px}
+  ::-webkit-scrollbar-track{background:var(--paper-2)}
+  ::-webkit-scrollbar-thumb{background:var(--clay);border-radius:6px;border:3px solid var(--paper-2)}
+  :focus-visible{outline:3px solid var(--clay);outline-offset:3px;border-radius:4px}
+
+  .wrap{max-width:var(--container);margin:0 auto;padding:0 28px}
+  .eyebrow{font-family:'Manrope';font-weight:700;letter-spacing:.22em;text-transform:uppercase;font-size:.72rem;color:var(--clay)}
+
+  /* ---------- TOP RIBBON ---------- */
+  .ribbon{background:var(--espresso);color:#E9DCC8;font-size:.8rem;font-weight:600;letter-spacing:.02em;text-align:center;padding:8px 16px}
+  .ribbon b{color:var(--honey)}
+  .ribbon .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#7bbf72;margin-right:7px;vertical-align:middle;box-shadow:0 0 0 0 rgba(123,191,114,.7);animation:pulse 2.4s infinite}
+  .ribbon.closed .dot{background:#cf7b5e;animation:none}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(123,191,114,.55)}70%{box-shadow:0 0 0 7px rgba(123,191,114,0)}100%{box-shadow:0 0 0 0 rgba(123,191,114,0)}}
+
+  /* ---------- NAV ---------- */
+  nav{position:sticky;top:0;z-index:100;background:rgba(247,241,230,.82);backdrop-filter:blur(14px);border-bottom:1px solid transparent;transition:border-color .3s var(--ease),box-shadow .3s var(--ease),background .3s var(--ease)}
+  nav.scrolled{border-color:var(--line);box-shadow:0 6px 24px -16px rgba(42,27,17,.4)}
+  nav.scrolled .logo-img{height:46px}
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+  .logo{display:flex;align-items:center;gap:13px}
+  .logo-img{height:54px;width:auto;filter:drop-shadow(0 4px 9px rgba(42,27,17,.2));transition:height .3s var(--ease)}
+  .logo-txt{font-family:'Fraunces',serif;font-weight:600;font-size:1.3rem;color:var(--espresso);line-height:1}
+  .logo-txt small{display:block;font-family:'Manrope';font-weight:700;font-size:.6rem;letter-spacing:.22em;text-transform:uppercase;color:var(--honey);margin-top:4px}
+  .nav-links{display:flex;align-items:center;gap:32px}
+  .nav-links a:not(.btn){font-weight:600;font-size:.95rem;color:var(--ink);position:relative;padding:4px 0}
+  .nav-links a:not(.btn)::after{content:'';position:absolute;left:0;bottom:-2px;width:0;height:2px;background:var(--clay);transition:width .26s var(--ease)}
+  .nav-links a:not(.btn):hover{color:var(--clay)}
+  .nav-links a:not(.btn):hover::after{width:100%}
+
+  .btn{display:inline-flex;align-items:center;gap:9px;background:var(--clay);color:var(--white);padding:13px 26px;border-radius:4px;font-family:'Manrope';font-weight:700;font-size:.94rem;cursor:pointer;border:none;transition:transform .14s var(--ease),background .25s ease,box-shadow .25s var(--ease);box-shadow:0 10px 24px -12px rgba(187,79,44,.8)}
+  .btn:hover{background:var(--clay-soft);transform:translateY(-2px);box-shadow:0 16px 30px -14px rgba(187,79,44,.9)}
+  .btn:active{transform:translateY(0) scale(.97)}
+  .btn.ghost{background:transparent;color:var(--espresso);border:1.5px solid var(--espresso);box-shadow:none}
+  .btn.ghost:hover{background:var(--espresso);color:var(--white)}
+  .btn.dark{background:var(--espresso);box-shadow:0 12px 26px -14px rgba(42,27,17,.9)}
+  .btn.dark:hover{background:var(--espresso-2)}
+  .nav-toggle{display:none;background:none;border:none;font-size:1.7rem;color:var(--espresso);cursor:pointer;line-height:1}
+
+  /* ---------- HERO ---------- */
+  header{position:relative;padding:70px 0 0;overflow:hidden}
+  .hero-grid{display:grid;grid-template-columns:1.02fr .98fr;gap:54px;align-items:end}
+  .hero-eyebrow{display:inline-flex;align-items:center;gap:10px;margin-bottom:26px}
+  .hero-eyebrow .yr{font-family:'Fraunces',serif;font-style:italic;color:var(--clay);font-size:1rem}
+  .hero h1{font-size:clamp(2.9rem,6.4vw,5.6rem);color:var(--espresso);font-weight:600}
+  .hero h1 em{font-style:italic;color:var(--clay);font-weight:500}
+  .hero .lead{font-size:1.18rem;color:var(--muted);margin:26px 0 34px;max-width:480px}
+  .hero-cta{display:flex;gap:14px;flex-wrap:wrap}
+  .hero-stats{display:flex;gap:0;margin-top:46px;border-top:1px solid var(--line);padding-top:26px;margin-bottom:64px}
+  .hero-stats div{padding-right:30px;margin-right:30px;border-right:1px solid var(--line)}
+  .hero-stats div:last-child{border:none;margin:0;padding:0}
+  .hero-stats strong{display:block;font-family:'Fraunces',serif;font-size:1.5rem;color:var(--espresso);line-height:1}
+  .hero-stats span{font-size:.82rem;color:var(--muted);font-weight:600}
+  .hero-visual{position:relative;align-self:stretch}
+  .hero-photo{aspect-ratio:3/4;border-radius:6px 6px 0 0;overflow:hidden;background:var(--paper-3);box-shadow:var(--shadow)}
+  .hero-photo img{width:100%;height:100%;object-fit:cover}
+  .hero-tag{position:absolute;top:26px;left:-14px;background:var(--honey);color:var(--espresso);font-family:'Fraunces',serif;font-weight:600;padding:10px 18px;border-radius:4px;box-shadow:var(--shadow-sm);transform:rotate(-3deg)}
+  .hero-card{position:absolute;bottom:34px;left:-26px;background:var(--white);padding:16px 20px;border-radius:6px;box-shadow:var(--shadow);display:flex;align-items:center;gap:13px;max-width:230px}
+  .hero-card .ico{font-size:1.7rem}
+  .hero-card b{font-family:'Fraunces',serif;display:block;color:var(--espresso);font-size:1rem;line-height:1.1}
+  .hero-card small{color:var(--muted);font-size:.8rem;font-weight:600}
+
+  /* marquee */
+  .marquee{margin-top:6px;background:var(--espresso);color:var(--paper);overflow:hidden;border-top:3px solid var(--clay)}
+  .marquee-track{display:flex;gap:0;white-space:nowrap;animation:scroll 28s linear infinite;will-change:transform}
+  .marquee:hover .marquee-track{animation-play-state:paused}
+  .marquee span{font-family:'Fraunces',serif;font-style:italic;font-size:1.15rem;padding:16px 30px;display:inline-flex;align-items:center;gap:30px}
+  .marquee span::after{content:'✦';color:var(--honey);font-style:normal;font-size:.8rem}
+  @keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  @media (prefers-reduced-motion:reduce){.marquee-track{animation:none}}
+
+  /* ---------- SECTIONS ---------- */
+  section.block{padding:104px 0;position:relative}
+  .section-head{max-width:680px;margin-bottom:56px}
+  .section-head.center{margin-left:auto;margin-right:auto;text-align:center}
+  .section-head .eyebrow{display:block;margin-bottom:16px}
+  .section-head h2{font-size:clamp(2.1rem,4.2vw,3.4rem);color:var(--espresso)}
+  .section-head p{color:var(--muted);font-size:1.12rem;margin-top:18px}
+
+  /* ABOUT */
+  .about{background:var(--white)}
+  .about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:64px;align-items:center}
+  .about-media{position:relative}
+  .about-media img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:6px;box-shadow:var(--shadow)}
+  .about-media .vlabel{position:absolute;top:50%;left:-58px;transform:translateY(-50%) rotate(-90deg);transform-origin:center;font-family:'Manrope';font-weight:700;letter-spacing:.3em;text-transform:uppercase;font-size:.72rem;color:var(--clay);white-space:nowrap}
+  .about-media .yearbig{position:absolute;right:-18px;bottom:-26px;font-family:'Fraunces',serif;font-weight:600;font-size:5.2rem;color:var(--clay);line-height:.8;opacity:.92;text-shadow:0 4px 0 var(--paper)}
+  .about-text h2{font-size:clamp(1.9rem,3.6vw,2.9rem);color:var(--espresso);margin-bottom:22px}
+  .about-text p{color:var(--muted);font-size:1.08rem;margin-bottom:18px}
+  .about-text p .em{color:var(--clay);font-family:'Fraunces',serif;font-style:italic}
+  .feats{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+  .feat-chip{display:flex;align-items:center;gap:9px;background:var(--paper);padding:11px 18px;border-radius:4px;font-weight:700;font-size:.9rem;color:var(--espresso);border:1px solid var(--line)}
+
+  /* SERVICES — lista editorial numerada */
+  .services{background:var(--paper)}
+  .svc-list{display:grid;gap:0;border-top:1px solid var(--line)}
+  .svc-row{display:grid;grid-template-columns:90px 1fr auto;gap:30px;align-items:center;padding:30px 12px;border-bottom:1px solid var(--line);transition:background .3s var(--ease)}
+  .svc-row:hover{background:var(--white)}
+  .svc-num,.svc-main{transition:transform .3s var(--ease)}
+  .svc-row:hover .svc-num,.svc-row:hover .svc-main{transform:translateX(12px)}
+  .svc-num{font-family:'Fraunces',serif;font-size:1.5rem;color:var(--clay)}
+  .svc-main h3{font-size:1.5rem;color:var(--espresso);margin-bottom:4px}
+  .svc-main p{color:var(--muted);font-size:1rem;max-width:560px}
+  .svc-ico{font-size:2rem;justify-self:end;opacity:.9;transition:transform .3s var(--ease)}
+  .svc-row:hover .svc-ico{transform:scale(1.12) rotate(-6deg)}
+
+  /* CATALOGO */
+  .catalogo{background:var(--white)}
+  .cat-tabs{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:0 auto 46px;max-width:760px}
+  .cat-tab{font-family:'Manrope';font-weight:700;font-size:.9rem;padding:10px 20px;border-radius:40px;border:1.5px solid var(--line);background:transparent;color:var(--espresso);cursor:pointer;transition:background .22s var(--ease),border-color .22s var(--ease),color .22s var(--ease),transform .14s var(--ease)}
+  .cat-tab:hover{border-color:var(--clay);color:var(--clay)}
+  .cat-tab:active{transform:scale(.97)}
+  .cat-tab.active{background:var(--espresso);border-color:var(--espresso);color:var(--white)}
+  .cat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+  .cat-card{background:var(--paper);border-radius:6px;overflow:hidden;border:1px solid var(--line);display:flex;flex-direction:column;transition:transform .32s var(--ease),box-shadow .32s var(--ease),border-color .32s var(--ease)}
+  .cat-card:hover{transform:translateY(-6px);box-shadow:var(--shadow);border-color:transparent}
+  .cat-card .ph{aspect-ratio:1/1;overflow:hidden;background:var(--paper-3);position:relative}
+  .cat-card .ph img{width:100%;height:100%;object-fit:cover;transition:transform .5s var(--ease)}
+  .cat-card:hover .ph img{transform:scale(1.07)}
+  .cat-card .body{padding:16px 17px 18px;display:flex;flex-direction:column;gap:9px;flex:1}
+  .cat-card h3{font-size:1.04rem;color:var(--espresso);line-height:1.25}
+  .cat-card .desc{font-size:.82rem;color:var(--muted);line-height:1.5;flex:1}
+  .cat-card .pricerow{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin-top:2px}
+  .cat-card .price{font-family:'Fraunces',serif;font-weight:600;font-size:1.18rem;color:var(--clay)}
+  .cat-card .min{font-size:.68rem;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:.05em;text-align:right}
+  .cat-cat-label{grid-column:1/-1;display:flex;align-items:center;gap:14px;margin:34px 0 4px;scroll-margin-top:120px}
+  .cat-cat-label:first-child{margin-top:0}
+  .cat-cat-label h3{font-family:'Fraunces',serif;font-size:1.5rem;color:var(--espresso);white-space:nowrap}
+  .cat-cat-label .ico{font-size:1.4rem}
+  .cat-cat-label .line{flex:1;height:1px;background:var(--line)}
+  .cat-cat-label .n{font-size:.74rem;font-weight:700;color:var(--clay);text-transform:uppercase;letter-spacing:.08em}
+  .cat-card.hide,.cat-cat-label.hide{display:none}
+  .cat-note{text-align:center;color:var(--muted);font-size:1.04rem;margin-top:40px}
+  .cat-note a{color:var(--clay);font-weight:700;border-bottom:1.5px solid var(--clay)}
+
+  /* GALLERY */
+  .gallery{background:var(--paper-2)}
+  .gal-scroll{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(280px,1fr);grid-template-rows:240px 240px;gap:18px;overflow-x:auto;padding:6px 4px 22px;scroll-snap-type:x proximity;scrollbar-width:thin}
+  .gal-item{border-radius:6px;overflow:hidden;position:relative;box-shadow:var(--shadow-sm);scroll-snap-align:start}
+  .gal-item.tall{grid-row:span 2}
+  .gal-item img{width:100%;height:100%;object-fit:cover;transition:transform .55s var(--ease)}
+  .gal-item:hover img{transform:scale(1.06)}
+  .gal-item::after{content:attr(data-label);position:absolute;left:14px;bottom:14px;background:rgba(42,27,17,.82);color:#fff;padding:6px 13px;border-radius:4px;font-size:.78rem;font-weight:700;opacity:0;transform:translateY(8px);transition:opacity .3s var(--ease),transform .3s var(--ease)}
+  .gal-item:hover::after{opacity:1;transform:none}
+  .gal-hint{text-align:center;color:var(--muted);font-size:.86rem;font-weight:600;margin-top:6px}
+
+  /* CONTACT */
+  .contact{background:var(--espresso);color:#EBDFCC}
+  .contact .eyebrow{color:var(--honey)}
+  .contact .section-head h2{color:var(--white)}
+  .contact .section-head p{color:#C9B79E}
+  .contact-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:stretch}
+  .map-card{border-radius:6px;overflow:hidden;box-shadow:var(--shadow);min-height:420px;display:flex;background:#000}
+  .map-card iframe{width:100%;height:100%;min-height:420px;border:0;display:block;filter:saturate(.92) brightness(.96)}
+  .info-col{display:flex;flex-direction:column;gap:20px}
+  .info-box{background:rgba(255,252,246,.05);border:1px solid rgba(255,252,246,.12);border-radius:6px;padding:30px}
+  .info-box h3{font-size:1.4rem;color:var(--white);margin-bottom:18px;display:flex;align-items:center;gap:10px}
+  .hours-table{width:100%;border-collapse:collapse}
+  .hours-table td{padding:11px 0;border-bottom:1px solid rgba(255,252,246,.1);font-size:.97rem;color:#D8C8B2}
+  .hours-table tr:last-child td{border-bottom:none}
+  .hours-table td:first-child{font-weight:700;color:#EBDFCC}
+  .hours-table td:last-child{text-align:right}
+  .hours-table tr.today td{color:var(--honey)}
+  .hours-table tr.today td:first-child::after{content:' · hoy';font-family:'Fraunces',serif;font-style:italic;font-weight:500;font-size:.82rem}
+  .info-row{display:flex;gap:15px;padding:13px 0;border-bottom:1px solid rgba(255,252,246,.1);align-items:center}
+  .info-row:last-of-type{border-bottom:none}
+  .info-row .ico{font-size:1.35rem;flex-shrink:0}
+  .info-row b{display:block;color:#EBDFCC;font-weight:700;font-size:.82rem;text-transform:uppercase;letter-spacing:.06em}
+  .info-row a,.info-row span.v{color:var(--white);font-family:'Fraunces',serif;font-size:1.2rem;transition:color .2s ease}
+  .info-row a:hover{color:var(--honey)}
+  .contact-cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}
+  .socials{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}
+  .social-btn{display:inline-flex;align-items:center;gap:9px;background:rgba(255,252,246,.06);color:var(--white);padding:13px 22px;border-radius:4px;font-weight:700;border:1px solid rgba(255,252,246,.16);transition:background .25s ease,transform .18s var(--ease)}
+  .social-btn:hover{background:var(--clay);border-color:var(--clay);transform:translateY(-2px)}
+  .social-btn:active{transform:scale(.97)}
+  .addr-line{font-size:.95rem;color:#C9B79E;margin-top:14px;line-height:1.5}
+
+  /* FOOTER */
+  footer{background:var(--espresso);color:#C9B79E;padding:0 0 34px;border-top:1px solid rgba(255,252,246,.1)}
+  .foot-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:44px;padding:60px 0 44px}
+  .foot-logo{display:flex;align-items:center;gap:13px;margin-bottom:16px}
+  .foot-logo img{height:50px;width:auto}
+  .foot-logo .logo-txt{color:#fff}
+  .foot-logo .logo-txt small{color:var(--honey)}
+  footer .foot-about{font-size:.95rem;max-width:330px;line-height:1.65}
+  footer h4{font-family:'Fraunces',serif;color:#fff;margin-bottom:16px;font-size:1.05rem}
+  footer .fcol a{display:block;color:#C9B79E;padding:5px 0;transition:color .2s ease;font-weight:600;font-size:.95rem}
+  footer .fcol a:hover{color:var(--honey)}
+  .foot-bottom{border-top:1px solid rgba(255,252,246,.1);padding-top:24px;text-align:center;font-size:.85rem;color:#A68F76}
+
+  /* REVEAL */
+  .reveal{opacity:0;transform:translateY(30px);transition:opacity .7s ease,transform .7s var(--ease)}
+  .reveal.in{opacity:1;transform:none}
+  .reveal.d1{transition-delay:.08s}.reveal.d2{transition-delay:.16s}.reveal.d3{transition-delay:.24s}
+  @media (prefers-reduced-motion:reduce){
+    .reveal{opacity:1;transform:none;transition:none}
+    .btn:hover,.social-btn:hover,.cat-card:hover,.gal-item:hover,
+    .svc-row:hover .svc-num,.svc-row:hover .svc-main{transform:none!important}
+  }
+  @media (hover:none){
+    .btn:hover,.social-btn:hover,.cat-card:hover,.gal-item:hover{transform:none}
+    .cat-card:hover .ph img,.gal-item:hover img{transform:none}
+    .svc-row:hover .svc-num,.svc-row:hover .svc-main{transform:none}
+  }
+
+  /* RESPONSIVE */
+  /* nav colapsa antes de que se amontone con el logo */
+  @media(max-width:900px){
+    .nav-links{position:fixed;inset:0 0 0 auto;width:78%;max-width:320px;height:100vh;background:var(--paper);flex-direction:column;justify-content:center;gap:26px;transform:translateX(100%);transition:transform .35s var(--ease-io);box-shadow:var(--shadow);padding:40px;z-index:100}
+    .nav-links.open{transform:none}
+    .nav-toggle{display:block;z-index:101}
+  }
+  @media(max-width:980px){
+    .hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}
+    .hero-visual{order:-1;max-width:440px;margin:0 auto}
+    .hero-stats{margin-bottom:48px}
+    .about-media{max-width:440px;margin:0 auto}
+    .about-media .vlabel{display:none}
+    .cat-grid{grid-template-columns:repeat(3,1fr)}
+    .foot-grid{grid-template-columns:1fr 1fr;gap:32px}
+  }
+  @media(max-width:760px){
+    .cat-grid{grid-template-columns:repeat(2,1fr)}
+    .svc-row{grid-template-columns:60px 1fr;gap:18px;padding:24px 6px}
+    .svc-ico{display:none}
+  }
+  @media(max-width:640px){
+    section.block{padding:74px 0}
+    .hero-stats{flex-wrap:wrap;gap:16px 0}
+    .hero-stats div{border-right:none;padding-right:0;margin-right:0;flex:1 0 50%}
+    .foot-grid{grid-template-columns:1fr}
+  }
+  @media(max-width:480px){
+    .cat-grid{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+
+<!-- RIBBON -->
+<div class="ribbon" id="ribbon">
+  <span class="dot"></span><span id="ribbonText">Recién hecho cada mañana en Rubí · de lunes a domingo</span>
+</div>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="wrap nav-inner">
+    <a href="#inicio" class="logo" aria-label="Inicio">
+      <img class="logo-img" src="assets/logo-tere.png" alt="Logo Panadería Tere">
+      <span class="logo-txt">Panadería Tere<small>Rubí · Barcelona</small></span>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="#nosotros">Nosotros</a>
+      <a href="#servicios">Qué ofrecemos</a>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#galeria">Galería</a>
+      <a href="#contacto">Dónde estamos</a>
+      <a href="tel:+34936975701" class="btn">📞 Encargos</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header id="inicio">
+  <div class="wrap hero-grid">
+    <div class="hero reveal">
+      <span class="hero-eyebrow"><span class="eyebrow">Forn de pa · Granja</span><span class="yr">desde 2002</span></span>
+      <h1>El sabor de siempre, horneado en <em>Rubí</em>.</h1>
+      <p class="lead">Desayunos, meriendas, tartas de cumpleaños, catering y bandejas dulces y saladas. Pásate por la tienda o haz tu encargo por teléfono.</p>
+      <div class="hero-cta">
+        <a href="tel:+34936975701" class="btn">📞 Llama para tu encargo</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Panaderia+Tere+Carrer+de+Victor+Balaguer+2+08191+Rubi+Barcelona" target="_blank" rel="noopener" class="btn ghost">📍 Cómo llegar</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>7:30 h</strong><span>Abrimos cada mañana</span></div>
+        <div><strong>L–D</strong><span>Siempre con pan fresco</span></div>
+        <div><strong>+20 años</strong><span>Horneando en Rubí</span></div>
+      </div>
+    </div>
+    <div class="hero-visual reveal d2">
+      <span class="hero-tag">Pan recién hecho</span>
+      <div class="hero-photo">
+        <img src="cesta-panes.jpeg" alt="Cesta de pan recién hecho de Panadería Tere">
+      </div>
+      <div class="hero-card">
+        <span class="ico">📍</span>
+        <div><b>Carrer Víctor Balaguer, 2</b><small>Rubí · Barcelona</small></div>
+      </div>
+    </div>
+  </div>
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track" id="marquee">
+      <span>Pan artesano</span><span>Tartas de cumpleaños</span><span>Catering dulce y salado</span><span>Bandejas para compartir</span><span>Desayunos y meriendas</span><span>Bocadillos y wraps</span>
+      <span>Pan artesano</span><span>Tartas de cumpleaños</span><span>Catering dulce y salado</span><span>Bandejas para compartir</span><span>Desayunos y meriendas</span><span>Bocadillos y wraps</span>
+    </div>
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section class="block about" id="nosotros">
+  <div class="wrap about-grid">
+    <div class="about-media reveal">
+      <span class="vlabel">La panadería del barrio</span>
+      <img src="assets/nosotros.jpg" alt="Interior y mostrador de Panadería Tere">
+      <span class="yearbig">2002</span>
+    </div>
+    <div class="about-text reveal d1">
+      <span class="eyebrow">Quiénes somos</span>
+      <h2>Una panadería de toda la vida en el corazón de Rubí</h2>
+      <p>En Panadería Tere amasamos cada día con la ilusión de que te lleves a casa algo <span class="em">recién hecho</span>. Pan, bollería, dulces y todo lo que necesitas para empezar bien la mañana o endulzar la tarde.</p>
+      <p>Y cuando hay celebración, estamos contigo: tartas de cumpleaños, bandejas dulces y saladas, catering y desayunos para que solo tengas que disfrutar.</p>
+      <div class="feats">
+        <span class="feat-chip">🥖 Pan recién hecho</span>
+        <span class="feat-chip">☕ Desayunos y meriendas</span>
+        <span class="feat-chip">🎂 Tartas por encargo</span>
+        <span class="feat-chip">🍽️ Catering</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="block services" id="servicios">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Qué ofrecemos</span>
+      <h2>Para el día a día y para los días especiales</h2>
+      <p>Todo recién hecho. Pásate por la tienda o reserva tu encargo con antelación.</p>
+    </div>
+    <div class="svc-list">
+      <div class="svc-row reveal"><span class="svc-num">01</span><div class="svc-main"><h3>Desayunos y meriendas</h3><p>Bollería, café y dulces recién hechos para empezar el día o hacer una pausa rica a media tarde.</p></div><span class="svc-ico">☕</span></div>
+      <div class="svc-row reveal"><span class="svc-num">02</span><div class="svc-main"><h3>Tartas de cumpleaños</h3><p>Tartas por encargo para celebrar como se merece. Dinos el día y nosotros nos encargamos del resto.</p></div><span class="svc-ico">🎂</span></div>
+      <div class="svc-row reveal"><span class="svc-num">03</span><div class="svc-main"><h3>Catering</h3><p>¿Reunión, evento o celebración? Preparamos catering dulce y salado a la medida de tu ocasión.</p></div><span class="svc-ico">🍽️</span></div>
+      <div class="svc-row reveal"><span class="svc-num">04</span><div class="svc-main"><h3>Bandejas dulces y saladas</h3><p>Bandejas listas para compartir. Perfectas para sorprender en casa, en la oficina o con los amigos.</p></div><span class="svc-ico">🥐</span></div>
+      <div class="svc-row reveal"><span class="svc-num">05</span><div class="svc-main"><h3>Pan artesano</h3><p>Pan recién hecho cada mañana, de lunes a domingo. El olor que reconoces nada más entrar.</p></div><span class="svc-ico">🥖</span></div>
+      <div class="svc-row reveal"><span class="svc-num">06</span><div class="svc-main"><h3>Encargos</h3><p>Llama y resérvalo. Te lo dejamos preparado para cuando pases a recogerlo, sin esperas.</p></div><span class="svc-ico">📞</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- CATALOGO -->
+<section class="block catalogo" id="catalogo">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Catálogo</span>
+      <h2>Nuestro catálogo de encargos</h2>
+      <p>Catering dulce y salado para eventos y celebraciones. Filtra por categoría para ver los productos y precios.</p>
+    </div>
+    <div class="cat-tabs reveal" id="catTabs">
+      <button class="cat-tab active" data-filter="all">Todo</button>
+      <button class="cat-tab" data-filter="boca">🥪 Bocadillos y wraps</button>
+      <button class="cat-tab" data-filter="picar">🍢 Para picar</button>
+      <button class="cat-tab" data-filter="pizza">🍕 Pizzas y cocas</button>
+      <button class="cat-tab" data-filter="celebrar">🎂 Para celebrar</button>
+    </div>
+    <div class="cat-grid" id="catGrid">
+
+      <div class="cat-cat-label reveal" data-cat="boca"><span class="ico">🥪</span><h3>Bocadillos y wraps</h3><span class="line"></span><span class="n">9 productos</span></div>
+      <div class="cat-card reveal" data-cat="boca"><div class="ph"><img src="assets/cat/p04.jpg" alt="Bocadillos variados" loading="lazy"></div><div class="body"><h3>Bocadillos variados</h3><p class="desc">Jamón, queso curado, longaniza, bull blanco, jamón dulce, chorizo</p><div class="pricerow"><span class="price">1,70 €</span><span class="min">/ud</span></div></div></div>
+      <div class="cat-card reveal" data-cat="boca"><div class="ph"><img src="assets/cat/p02.jpg" alt="Bocadillos vegetales · salmón" loading="lazy"></div><div class="body"><h3>Bocadillos vegetales · salmón</h3><p class="desc">Pan de cereales con salmón, lechuga, aguacate y sésamo</p><div class="pricerow"><span class="price">2,20 €</span><span class="min">/ud</span></div></div></div>
+      <div class="cat-card reveal" data-cat="boca"><div class="ph"><img src="assets/cat/p03.jpg" alt="Bocadillos vegetales · atún" loading="lazy"></div><div class="body"><h3>Bocadillos vegetales · atún</h3><p class="desc">Pan de cereales con atún, lechuga y pimiento rojo</p><div class="pricerow"><span class="price">1,85 €</span><span class="min">/ud</span></div></div></div>
+      <div class="cat-card reveal" data-cat="boca"><div class="ph"><img src="assets/cat/p20.jpg" alt="Minibocadillos" loading="lazy"></div><div class="body"><h3>Minibocadillos</h3><p class="desc">Atún 0,95 € · embutido 0,85 € · salmón 1,10 €</p><div class="pricerow"><span class="price">desde 0,85 €</span><span class="min">/ud</span></div></div></div>
+      <div class="cat-card reveal" data-cat="boca"><div class="ph"><img src="assets/cat/p19.jpg" alt="Wraps de salmón" loading="lazy"></div><div class="body"><h3>Wraps de salmón</h3><p class="desc">Salmón, rúcula, philadelphia, aguacate y cherry</p><div class="pricerow"><span class="price">1,60 €</span><span class="min">mín. 6 uds</span></div></div></div>
+      <div class="cat-card reveal" data-cat="boca"><div class="ph"><img src="assets/cat/p27.jpg" alt="Mini pita de pollo" loading="lazy"></div><div class="body"><h3>Mini pita de pollo</h3><p class="desc">Pollo y champiñones, cebolla caramelizada y salsa de yogur</p><div class="pricerow"><span class="price">2,50 €</span><span class="min">mín. 10 uds</span></div></div></div>
+      <div class="cat-card reveal" data-cat="boca"><div class="ph"><img src="assets/cat/p26.jpg" alt="Mini bikini trufado" loading="lazy"></div><div class="body"><h3>Mini bikini trufado</h3><p class="desc">Queso y jamón ibérico con toque de trufa</p><div class="pricerow"><span class="price">1,90 €</span><span class="min">mín. 12 uds</span></div></div></div>
+      <div class="cat-card reveal" data-cat="boca"><div class="ph"><img src="assets/cat/p24.jpg" alt="Brioche de pulled pork" loading="lazy"></div><div class="body"><h3>Brioche de pulled pork</h3><p class="desc">Salsa barbacoa y cebolla crujiente</p><div class="pricerow"><span class="price">2,50 €</span><span class="min">mín. 10 uds</span></div></div></div>
+      <div class="cat-card reveal" data-cat="boca"><div class="ph"><img src="assets/cat/p25.jpg" alt="Bocadito de calamar" loading="lazy"></div><div class="body"><h3>Bocadito de calamar</h3><p class="desc">Alioli, limón y lechuga</p><div class="pricerow"><span class="price">2,50 €</span><span class="min">mín. 10 uds</span></div></div></div>
+
+      <div class="cat-cat-label reveal" data-cat="picar"><span class="ico">🍢</span><h3>Para picar</h3><span class="line"></span><span class="n">11 productos</span></div>
+      <div class="cat-card reveal" data-cat="picar"><div class="ph"><img src="assets/cat/p06.jpg" alt="Mini Frankfurt" loading="lazy"></div><div class="body"><h3>Mini Frankfurt</h3><p class="desc">Frankfurt y ketchup</p><div class="pricerow"><span class="price">2,00 €</span><span class="min">mín. 8 uds</span></div></div></div>
+      <div class="cat-card reveal" data-cat="picar"><div class="ph"><img src="assets/cat/p07.jpg" alt="Mini hamburguesas" loading="lazy"></div><div class="body"><h3>Mini hamburguesas</h3><p class="desc">Ternera, queso, lechuga, cebolla caramelizada y ketchup</p><div class="pricerow"><span class="price">2,60 €</span><span class="min">mín. 8 uds</span></div></div></div>
+      <div class="cat-card reveal" data-cat="picar"><div class="ph"><img src="assets/cat/p11.jpg" alt="Croquetas caseras de cocido" loading="lazy"></div><div class="body"><h3>Croquetas caseras de cocido</h3><p class="desc">Hechas en casa</p><div class="pricerow"><span class="price">1,00 €</span><span class="min">mín. 10 uds</span></div></div></div>
+      <div class="cat-card reveal" data-cat="picar"><div class="ph"><img src="assets/cat/p10.jpg" alt="Empanadillas caseras" loading="lazy"></div><div class="body"><h3>Empanadillas caseras</h3><p class="desc">Atún, pimiento, cebolla, huevo y tomate</p><div class="pricerow"><span class="price">1,00 €</span><span class="min">mín. 10 uds</span></div></div></div>
+      <div class="cat-card reveal" data-cat="picar"><div class="ph"><img src="assets/cat/p21.jpg" alt="Gyozas de langostinos" loading="lazy"></div><div class="body"><h3>Gyozas de langostinos</h3><p class="desc">Con salsa de soja</p><div class="pricerow"><span class="price">1,00 €</span><span class="min">mín. 14 uds</span></div></div></div>
+      <div class="cat-card reveal" data-cat="picar"><div class="ph"><img src="assets/cat/p23.jpg" alt="Croissants rellenos variados" loading="lazy"></div><div class="body"><h3>Croissants rellenos variados</h3><p class="desc">Salmón, aguacate-huevo, atún, sobrasada-cabra, jamón-brie</p><div class="pricerow"><span class="price">2,00 €</span><span class="min">mín. 12 uds</span></div></div></div>
+      <div class="cat-card reveal" data-cat="picar"><div class="ph"><img src="assets/cat/p18.jpg" alt="Palitos de pan con jamón" loading="lazy"></div><div class="body"><h3>Palitos de pan con jamón</h3><p class="desc">Bandeja para compartir</p><div class="pricerow"><span class="price">12,50 €</span><span class="min">/bandeja</span></div></div></div>
+      <div class="cat-card reveal" data-cat="picar"><div class="ph"><img src="assets/cat/p13.jpg" alt="Canapés variados" loading="lazy"></div><div class="body"><h3>Canapés variados</h3><p class="desc">Surtido para eventos</p><div class="pricerow"><span class="price">22,50 €</span><span class="min">/ ½ kg</span></div></div></div>
+      <div class="cat-card reveal" data-cat="picar"><div class="ph"><img src="assets/cat/p08.jpg" alt="Artesanitos variados dulces" loading="lazy"></div><div class="body"><h3>Artesanitos variados dulces</h3><p class="desc">Surtido de bollería en miniatura</p><div class="pricerow"><span class="price">19,90 €</span><span class="min">/kg</span></div></div></div>
+      <div class="cat-card reveal" data-cat="picar"><div class="ph"><img src="assets/cat/p09.jpg" alt="Artesanitos variados salados" loading="lazy"></div><div class="body"><h3>Artesanitos variados salados</h3><p class="desc">Surtido salado en miniatura</p><div class="pricerow"><span class="price">23,90 €</span><span class="min">/kg</span></div></div></div>
+      <div class="cat-card reveal" data-cat="picar"><div class="ph"><img src="assets/cat/p12.jpg" alt="Tortilla de patatas casera" loading="lazy"></div><div class="body"><h3>Tortilla de patatas casera</h3><p class="desc">La de toda la vida</p><div class="pricerow"><span class="price">14,50 €</span><span class="min"></span></div></div></div>
+
+      <div class="cat-cat-label reveal" data-cat="pizza"><span class="ico">🍕</span><h3>Pizzas y cocas</h3><span class="line"></span><span class="n">4 productos</span></div>
+      <div class="cat-card reveal" data-cat="pizza"><div class="ph"><img src="assets/cat/p05.jpg" alt="Pizzas" loading="lazy"></div><div class="body"><h3>Pizzas</h3><p class="desc">Jamón dulce y queso · bacon y queso · barbacoa 25,50 €</p><div class="pricerow"><span class="price">desde 19,50 €</span><span class="min"></span></div></div></div>
+      <div class="cat-card reveal" data-cat="pizza"><div class="ph"><img src="assets/cat/p15.jpg" alt="Coca cardinale · salmón" loading="lazy"></div><div class="body"><h3>Coca cardinale · salmón</h3><p class="desc">Rúcula, aguacate, tomate cherry, mozzarella y salmón</p><div class="pricerow"><span class="price">29,90 €</span><span class="min"></span></div></div></div>
+      <div class="cat-card reveal" data-cat="pizza"><div class="ph"><img src="assets/cat/p16.jpg" alt="Coca cardinale · escalivada" loading="lazy"></div><div class="body"><h3>Coca cardinale · escalivada</h3><p class="desc">Pimiento rojo, berenjena y cebolla</p><div class="pricerow"><span class="price">35,90 €</span><span class="min"></span></div></div></div>
+      <div class="cat-card reveal" data-cat="pizza"><div class="ph"><img src="assets/cat/p17.jpg" alt="Coca de hojaldre" loading="lazy"></div><div class="body"><h3>Coca de hojaldre</h3><p class="desc">Pimiento y queso de cabra</p><div class="pricerow"><span class="price">19,90 €</span><span class="min"></span></div></div></div>
+
+      <div class="cat-cat-label reveal" data-cat="celebrar"><span class="ico">🎂</span><h3>Para celebrar</h3><span class="line"></span><span class="n">2 productos</span></div>
+      <div class="cat-card reveal" data-cat="celebrar"><div class="ph"><img src="assets/cat/p14.jpg" alt="Bizcocho" loading="lazy"></div><div class="body"><h3>Bizcocho</h3><p class="desc">Normal o relleno de chocolate (+4,50 € chocolatina)</p><div class="pricerow"><span class="price">18 €</span><span class="min">/kg</span></div></div></div>
+      <div class="cat-card reveal" data-cat="celebrar"><div class="ph"><img src="assets/cat/p22.jpg" alt="Tartas número" loading="lazy"></div><div class="body"><h3>Tartas número</h3><p class="desc">Para cumpleaños · Nº 20 cm 20 € · Nº 30 cm 25 €</p><div class="pricerow"><span class="price">desde 20,00 €</span><span class="min"></span></div></div></div>
+
+    </div>
+    <p class="cat-note">¿No ves lo que buscas? Llámanos al <a href="tel:+34936975701">936 975 701</a> y lo preparamos a tu medida.</p>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="block gallery" id="galeria">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Galería</span>
+      <h2>Entra por los ojos</h2>
+      <p>Un vistazo a lo que sale cada día de nuestro obrador.</p>
+    </div>
+    <div class="gal-scroll reveal">
+      <div class="gal-item tall" data-label="Bocadillos artesanos"><img src="assets/gal-wraps.jpg" alt="Bocadillos y wraps artesanos" loading="lazy"></div>
+      <div class="gal-item" data-label="Tostas y embutidos"><img src="assets/gal-tostas.jpg" alt="Tostas con embutidos" loading="lazy"></div>
+      <div class="gal-item" data-label="Coca salada"><img src="assets/gal-coca.jpg" alt="Coca salada artesana" loading="lazy"></div>
+      <div class="gal-item tall" data-label="Pitas rellenas"><img src="assets/gal-pitas.jpg" alt="Pitas rellenas" loading="lazy"></div>
+      <div class="gal-item" data-label="Catering"><img src="assets/gal-buffet1.jpg" alt="Catering para eventos" loading="lazy"></div>
+      <div class="gal-item" data-label="Bandejas para eventos"><img src="assets/gal-buffet2.jpg" alt="Bandejas para eventos" loading="lazy"></div>
+    </div>
+    <p class="gal-hint">← Desliza para ver más →</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="block contact" id="contacto">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Dónde estamos</span>
+      <h2>Te esperamos en la tienda</h2>
+      <p>Ven a vernos a Rubí o llámanos para hacer tu encargo.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="map-card reveal">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2988.6876924281696!2d2.036200000000013!3d41.489369999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49171e22cb023%3A0xd65f1168b90200a4!2sPanader%C3%ADa%20Tere!5e0!3m2!1ses!2ses!4v1780960547865!5m2!1ses!2ses" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Ubicación de Panadería Tere en Rubí"></iframe>
+      </div>
+      <div class="info-col">
+        <div class="info-box reveal d1">
+          <h3>🕒 Horario</h3>
+          <table class="hours-table" id="hoursTable">
+            <tr data-days="1 2 3 4 5"><td>Lunes a viernes</td><td>7:30–13:00 · 16:00–19:00</td></tr>
+            <tr data-days="6"><td>Sábado</td><td>7:30–13:30</td></tr>
+            <tr data-days="0"><td>Domingo</td><td>8:00–13:00</td></tr>
+          </table>
+          <p class="addr-line">📍 Carrer de Víctor Balaguer, 2 · 08191 Rubí, Barcelona</p>
+        </div>
+        <div class="info-box reveal d2">
+          <h3>📞 Contacto</h3>
+          <div class="info-row"><span class="ico">📞</span><div><b>Teléfono / Encargos</b><a href="tel:+34936975701">936 97 57 01</a></div></div>
+          <div class="info-row"><span class="ico">📱</span><div><b>Móvil / Encargos</b><a href="tel:+34650950345">650 95 03 45</a></div></div>
+          <div class="contact-cta">
+            <a href="tel:+34936975701" class="btn">📞 Llamar ahora</a>
+            <a href="tel:+34650950345" class="social-btn">📱 650 95 03 45</a>
+          </div>
+        </div>
+        <div class="info-box reveal d3" id="redes">
+          <h3>📸 Redes sociales</h3>
+          <div class="socials">
+            <a href="https://www.instagram.com/panaderiatere/" target="_blank" rel="noopener" class="social-btn">📸 Instagram · @panaderiatere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a href="#inicio" class="foot-logo"><img src="assets/logo-tere.png" alt="Logo Panadería Tere"><span class="logo-txt">Panadería Tere<small>Rubí · Barcelona</small></span></a>
+        <p class="foot-about">Pan, dulces y encargos artesanos en el corazón de Rubí. Recién hecho cada mañana, de lunes a domingo.</p>
+      </div>
+      <div class="fcol">
+        <h4>Menú</h4>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#servicios">Qué ofrecemos</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Dónde estamos</a>
+      </div>
+      <div class="fcol">
+        <h4>Contacto</h4>
+        <a href="tel:+34936975701">936 97 57 01</a>
+        <a href="tel:+34650950345">650 95 03 45</a>
+        <a href="https://www.instagram.com/panaderiatere/" target="_blank" rel="noopener">@panaderiatere</a>
+      </div>
+    </div>
+    <div class="foot-bottom">© <span id="year"></span> Panadería Tere · Rubí, Barcelona · Hecho con cariño 🥐</div>
+  </div>
+</footer>
+
+<script>
+  // año
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // nav sombra al hacer scroll
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll',()=>{ nav.classList.toggle('scrolled', window.scrollY>20); },{passive:true});
+
+  // menú móvil
+  const toggle = document.getElementById('navToggle');
+  const links = document.getElementById('navLinks');
+  toggle.addEventListener('click',()=>{
+    const open = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open ? 'true':'false');
+  });
+  links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
+    links.classList.remove('open'); toggle.setAttribute('aria-expanded','false');
+  }));
+
+  // reveal on scroll
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  },{threshold:0.12, rootMargin:'0px 0px -7% 0px'});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+  // filtro de catálogo
+  const tabs = document.querySelectorAll('.cat-tab');
+  const items = document.querySelectorAll('#catGrid [data-cat]');
+  tabs.forEach(tab=>tab.addEventListener('click',()=>{
+    tabs.forEach(t=>t.classList.remove('active'));
+    tab.classList.add('active');
+    const f = tab.dataset.filter;
+    items.forEach(it=>{
+      const show = (f==='all' || it.dataset.cat===f);
+      it.classList.toggle('hide', !show);
+    });
+  }));
+
+  // horario: resaltar el día de hoy + estado abierto/cerrado en la cinta
+  const today = new Date().getDay();
+  document.querySelectorAll('#hoursTable tr[data-days]').forEach(r=>{
+    if(r.dataset.days.split(' ').includes(String(today))) r.classList.add('today');
+  });
+
+  (function(){
+    const now = new Date();
+    const d = now.getDay(), mins = now.getHours()*60 + now.getMinutes();
+    // franjas en minutos por día
+    const sched = {
+      1:[[450,780],[960,1140]],2:[[450,780],[960,1140]],3:[[450,780],[960,1140]],
+      4:[[450,780],[960,1140]],5:[[450,780],[960,1140]],
+      6:[[450,810]], 0:[[480,780]]
+    };
+    const ranges = sched[d] || [];
+    const open = ranges.some(([a,b])=>mins>=a && mins<b);
+    const ribbon = document.getElementById('ribbon');
+    const txt = document.getElementById('ribbonText');
+    if(open){
+      txt.innerHTML = '<b>Abierto ahora</b> · pan recién hecho cada mañana en Rubí';
+    } else {
+      ribbon.classList.add('closed');
+      // próxima apertura
+      let msg = 'Cerrado ahora';
+      const nextToday = ranges.find(([a])=>a>mins);
+      if(nextToday){
+        const h = Math.floor(nextToday[0]/60), m = String(nextToday[0]%60).padStart(2,'0');
+        msg = 'Cerrado ahora · <b>abrimos hoy a las '+h+':'+m+'</b>';
+      } else {
+        msg = 'Cerrado ahora · <b>te esperamos mañana con pan fresco</b>';
+      }
+      txt.innerHTML = msg;
+    }
+  })();
+</script>
+</body>
+</html>
