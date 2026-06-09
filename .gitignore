@@ -12,3 +12,4 @@ catpages/
 
 # Carpeta temporal de despliegue manual
 _deploy/
+.claude/
