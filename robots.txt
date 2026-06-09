@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://panaderia-tere-rubi.netlify.app/sitemap.xml
