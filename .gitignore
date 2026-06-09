@@ -6,3 +6,9 @@ index.html.bak2
 assets/logo-tere-rojo.bak.png
 .DS_Store
 catpages/
+
+# Local Netlify folder
+.netlify
+
+# Carpeta temporal de despliegue manual
+_deploy/
