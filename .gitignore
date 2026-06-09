@@ -1,0 +1,8 @@
+# Archivos temporales / pesados que no van a la web
+catalogo.pdf
+WhatsApp Image*.jpeg
+index.html.bak
+index.html.bak2
+assets/logo-tere-rojo.bak.png
+.DS_Store
+catpages/
