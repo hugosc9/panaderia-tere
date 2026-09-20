@@ -48,3 +48,7 @@ Para cada concepto:
 - **Cómo se diferencia** de la thumbnail estándar de este tema
 
 **Regla:** no repitas la composición de mi último vídeo. Un canal se reconoce por la paleta y el estilo, no por clonar el encuadre.
+
+**Dos afinamientos útiles** (de revisar un kit externo, ver `pipeline-10min/EVALUACION-KIT-EXTERNO.md` — el resto de ese kit se descartó, esto sí vale la pena):
+- **Texto e imagen deben contar cosas distintas que se completen entre sí**, no la misma idea dos veces. Si el texto ya dice "quebró en 3 años", la imagen no necesita mostrar un gráfico cayendo — puede mostrar la sede vacía, o el logo tachado. La redundancia texto/imagen desperdicia la mitad del espacio de curiosidad.
+- **Un elemento de tensión visual concreto** ayuda a que el ojo sepa qué mirar primero en <1s: una flecha, un tachado, un contraste "antes glorioso / ahora destruido". Para un canal sin caras, esto sustituye a la expresión facial exagerada que usan los canales de misterio — aquí la tensión va en el objeto o el logo, no en una persona.

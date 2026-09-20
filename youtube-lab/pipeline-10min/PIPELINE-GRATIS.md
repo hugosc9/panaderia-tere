@@ -94,7 +94,7 @@ Si más adelante el canal genera ingresos y quieres más planos generados, el c�
 2. Solo para los planos marcados como `VIDEO_IA` en el storyboard que de verdad importan (`04-storyboard.md` los marca con ⭐) — no generes de más "por si acaso".
 3. Guarda cada clip con el número de plano en el nombre de archivo (`plano-07.mp4`) — lo necesitas para el montaje automático del siguiente paso.
 
-Para las imágenes fijas (miniatura, fondos de gráficos): usa **Whisk** dentro de la misma app Gemini, mismos créditos — son más baratas que un vídeo, así que aquí sí puedes ser más generoso.
+Para las imágenes fijas (miniatura, fondos de gráficos): usa **Whisk** dentro de la misma app Gemini, mismos créditos — son más baratas que un vídeo, así que aquí sí puedes ser más generoso. **Meta AI** (meta.ai/create) es una alternativa totalmente gratuita fuera de tu cuota de Google, útil si te quedas corto de créditos Whisk/Veo a mitad de mes. [SECUNDARIO — no verificado en esta sesión, pruébalo tú antes de depender de él]
 
 ## 5. Montaje — Remotion (gratis, con código)
 
@@ -118,7 +118,7 @@ Estructura mínima para automatizar el ensamblado (composición que lee tu `.srt
 
 **Por qué Remotion y no un editor manual para esta fase:** una vez que tengas la composición hecha para tu primer vídeo, los siguientes solo cambian los assets de entrada (audio, srt, clips) — el montaje se vuelve casi automático. Es la inversión de tiempo que menciona el informe general (§7.6): cuesta más arrancar, pero el vídeo 4 en adelante sale mucho más rápido que editando a mano cada vez.
 
-**Si prefieres no tocar código todavía:** monta el primer vídeo a mano en DaVinci Resolve (gratis) para aprender qué plantilla necesitas, y automatiza con Remotion a partir del vídeo 3-4, tal como recomienda §8.2 del informe general.
+**Si prefieres no tocar código todavía:** monta el primer vídeo a mano en DaVinci Resolve o en **Clipchamp** (editor online gratuito de Microsoft, sin instalación) para aprender qué plantilla necesitas, y automatiza con Remotion a partir del vídeo 3-4, tal como recomienda §8.2 del informe general.
 
 ## 6. Miniatura
 
