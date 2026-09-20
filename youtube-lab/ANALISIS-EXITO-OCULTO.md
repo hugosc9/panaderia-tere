@@ -142,14 +142,32 @@ El canal publicó shorts casi a diario entre finales de mayo y finales de julio 
 
 ---
 
-## 5. Producción — lo que se puede y no se puede afirmar
+## 5. Producción — visionado directo de 2 largos + 1 short + 2 transcripciones
 
-vidIQ da metadatos, no acceso al vídeo en sí. Con lo disponible:
+A diferencia de la primera versión de este documento, aquí sí hay visionado real: `vidiq_video_watch` sobre el vídeo outlier nº1 y transcripción de otros dos, más `vidiq_watch_shortform_content` sobre un short. Uso la misma escala del CLAUDE.md original: **Confirmado / Probable / Posible / No se puede determinar**.
 
-- **Voz:** no se puede determinar sin ver/escuchar el contenido.
-- **Formato dominante: Shorts (100 de 113 vídeos, 88% del catálogo).** Esto es un dato duro, no una inferencia: el canal es fundamentalmente un canal de Shorts con incursiones ocasionales en formato largo, no al revés. Si tu intención es un canal de documentales de 8-15 minutos, **Éxito Oculto es un mal modelo de producción a copiar** — su motor de crecimiento real ha sido el volumen de shorts diarios, no el formato largo.
-- **Miniaturas:** las URLs están en el JSON (`data/raw/exito_oculto_vidiq.json`), se pueden abrir para inspección visual directa.
-- **Thumbnails/edición/efectos:** no se puede determinar desde aquí sin ver los vídeos. Si quieres esa capa, el siguiente paso es `claude-video-vision` sobre los 4 largos outlier (§2.2/§7.8 del informe general).
+### Confirmado (visto y/o oído directamente)
+
+- **Formato visual: ilustración 2D estilo cómic/"motion comic"**, no vídeo real ni stock footage. Animación limitada: zooms, paneos, fundidos cruzados, capas con movimiento sutil (vapor, luces). Un **personaje protagonista amarillo tipo emoji/stickman** reaparece como asset reutilizable en el largo analizado *y* en el short analizado — es un pipeline de personaje reciclable, no ilustración única por vídeo.
+- **Sin presentador humano en ningún momento**, ni en cámara ni en voz.
+- **Voz en off sintética (texto a voz por IA)**, en español, tono pausado y constante — se nota especialmente al comparar registro emocional plano contra la intensidad narrativa del guion.
+- **Subtítulos dinámicos** sincronizados con la narración (confirmado en el short).
+- **Interfaces simuladas**: apps de banco, Fiverr, YouTube, redes sociales, recreadas gráficamente, no capturas de pantalla reales.
+- **Gráficos de datos** (interés compuesto, reparto de ingresos en tarta) generados, no descriptivos.
+- **Formato dominante: Shorts (100 de 113 vídeos, 88% del catálogo)**, con la misma estética de personaje/ilustración que los largos — no son dos producciones distintas, es el mismo pipeline visual a dos duraciones.
+- **Guion largo, muy estructurado, en segunda persona ("tú"), dividido en capítulos numerados con rótulo en pantalla** — visto en dos vídeos largos con estructura idéntica (7 capítulos numerados).
+
+### Probable (patrón consistente, no verificable al 100%)
+
+- **Guion asistido por LLM.** "Así Funciona el ÉXITO" es literalmente un resumen encadenado de 5 libros de autoayuda (*Mindset*, *Hábitos Atómicos*, *Los 7 Hábitos*, *El Club de las 5 de la mañana*, *Método Seiko*) — contenido derivado y compilable, exactamente el tipo de tarea que un LLM resuelve bien y rápido. El vídeo "Cómo hacerte millonario antes de los 30" es ficción narrativa con cifras muy precisas de interés compuesto (interpolaciones financieras concretas en cada capítulo) — coherente con un guion generado o co-generado por IA a partir de una plantilla narrativa fija.
+- **La ilustración/animación pertenece a un formato de género ya extendido, no inventado por el canal.** La búsqueda de miniaturas visualmente similares (`vidiq_similar_thumbnails`) devolvió, entre los resultados más cercanos, canales en inglés como *"POV Finance"* y *"Wealth From Work HQ"*, con el mismo estilo de personaje-ilustración y el mismo formato narrativo en segunda persona ("POV: ..."). Esto sugiere que Éxito Oculto está aplicando en español un formato/plantilla que ya circula en el ecosistema anglosajón de finanzas personales — probablemente vía un curso, plantilla comercial o agencia que produce este estilo para varios clientes/idiomas, no una producción artesanal única.
+
+### Posible / no se puede determinar
+
+- **Herramienta concreta de TTS** (ElevenLabs u otra): no verificable sin metadata técnica o marca de agua.
+- **Herramienta concreta de ilustración/animación** (After Effects con rig de personaje, herramienta de animación IA tipo Kling/Runway sobre ilustraciones fijas, o un motor de motion-graphics tipo Remotion/HyperFrames con assets de personaje): no verificable desde aquí.
+- **Si hay una persona o un equipo detrás**, y si el canal es propio o un cliente de una agencia que vende este formato: no verificable.
+- **Miniaturas:** las URLs están en el JSON (`data/raw/exito_oculto_vidiq.json`) para inspección visual directa si quieres profundizar en el diseño concreto de thumbnail.
 
 ---
 
@@ -162,7 +180,7 @@ vidIQ da metadatos, no acceso al vídeo en sí. Con lo disponible:
 > el título no repite una fórmula que ya usó antes en el mismo canal (ver el fallo del "millonario a los 23"), y cuando nombra una marca reconocible o construye una elipsis de suspense, en el caso de los shorts.
 
 > **"La estructura narrativa habitual es…"**
-> no verificable sin ver el contenido. Pendiente de análisis con `claude-video-vision`.
+> narración en segunda persona ("tienes 23 años...") dividida en capítulos numerados con rótulo en pantalla (visto de forma idéntica en dos vídeos largos: 7 capítulos), sobre ilustración 2D con un personaje-asset reciclable y voz sintética — **confirmado por visionado directo**, no inferido de los títulos.
 
 > **"Las thumbnails suelen…"**
 > no verificable desde aquí; URLs disponibles en el JSON para inspección manual.
