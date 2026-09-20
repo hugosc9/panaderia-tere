@@ -16,18 +16,15 @@ Este informe distingue cuatro niveles. Aparecen marcados en todo el documento:
 | **[INFERENCIA]** | Conclusión mía a partir de lo anterior. Es un razonamiento, no un hecho. |
 | **[NO VERIFICABLE]** | No he podido comprobarlo desde este entorno. No lo doy por bueno. |
 
-### Limitación crítica de este entorno
+### Actualización: ya hay datos reales de Éxito Oculto
 
-**No he podido acceder a YouTube.** Este entorno de ejecución bloquea la salida de red a `youtube.com` y a todos los agregadores de estadísticas (Social Blade, ViewStats, NoxInfluencer, youtubers.me). Comprobado con `curl`: el proxy de egreso devuelve `403` a la petición `CONNECT` para esos dominios y también para dominios genéricos. La única herramienta de red disponible ha sido un buscador web, que devuelve titulares, URLs y resúmenes, pero no permite abrir páginas.
+Cuando escribí esta sección, el entorno bloqueaba `youtube.com` y todos los agregadores de estadísticas (`403` en el proxy de egreso), y no quise rellenar el análisis con cifras inventadas. Desde entonces se conectó el **conector vidIQ** en esta sesión, que da acceso directo y oficial a datos de canal, y con él he hecho la radiografía completa: **el 100% del catálogo largo (8/8 vídeos)** y una muestra de 71 shorts, con outlier scoring por cohorte temporal (mismo método que `tools/yt_lab.py`) y cruce de patrones de título contra rendimiento real.
 
-Consecuencia directa:
+**El análisis completo está en [`ANALISIS-EXITO-OCULTO.md`](ANALISIS-EXITO-OCULTO.md).** Las secciones 2 y 3 de este documento quedan como el protocolo general (sigue siendo válido si en el futuro quieres analizar otros canales sin vidIQ), pero para Éxito Oculto en concreto, ese archivo es la fuente autorizada, no lo que sigue aquí abajo.
 
-- **No tengo ni una sola métrica real de *Éxito Oculto*.** Ni suscriptores, ni títulos, ni fechas, ni visualizaciones, ni thumbnails.
-- Las búsquedas del canal por nombre y por handle (`exitoocultoyt`) no devolvieron **ninguna** referencia indexada. **[OBSERVADO]** Eso es débilmente compatible con un canal pequeño y/o reciente, pero el buscador es de ámbito estadounidense y falla con contenido hispano de nicho, así que **no concluyo nada** de esa ausencia. **[INFERENCIA débil]**
+**Un hallazgo que cambia una premisa del encargo:** los datos reales muestran que Éxito Oculto **no es un canal de historias empresariales** como asumía el CLAUDE.md del proyecto — es un canal de *dinero + mentalidad + desarrollo personal* (según su propia descripción), con solo 4 meses de vida, 88% del catálogo en formato Shorts, y sin publicar desde hace ~8 semanas. El hueco de "historias empresariales puras en español" que identifica la sección 6C de este informe **sigue abierto**: ni el canal de referencia del proyecto lo ocupa.
 
-Pedías explícitamente que no inventara métricas y que dijera claramente lo que no puedo verificar. Así que **no voy a escribir un análisis ficticio de Éxito Oculto**. Sería el tipo de informe que parece útil y te haría tomar decisiones sobre datos falsos.
-
-**Lo que he hecho en su lugar:** he escrito la herramienta que hace ese análisis exacto, en tu máquina, con datos oficiales de la API de YouTube, en unos 15 minutos de tu tiempo. Está en `tools/yt_lab.py`, funciona, y la he probado de extremo a extremo. La sección 2 es el protocolo para usarla. El resto del informe (mercado, subnichos, oportunidades, stack, pipeline, costes, propuestas) sí está completo, porque no dependía de acceder a YouTube.
+Pedías explícitamente que no inventara métricas y que dijera claramente lo que no puedo verificar. Por eso la primera versión de esta sección documentó el bloqueo en vez de rellenarlo con ficción — y por eso, en cuanto hubo una vía real de datos, la usé y sustituí la ficción por hechos.
 
 ---
 
@@ -35,7 +32,7 @@ Pedías explícitamente que no inventara métricas y que dijera claramente lo qu
 
 **Nueve conclusiones que cambian decisiones:**
 
-1. **El análisis de Éxito Oculto está bloqueado por red, no por dificultad.** La herramienta que lo resuelve está escrita y probada (`tools/yt_lab.py`). Necesita una clave gratuita de la YouTube Data API v3 y un comando. Sección 2.
+1. **El análisis de Éxito Oculto ya está hecho, con datos reales, vía vidIQ.** Resultado clave: no es un canal de historias empresariales, es un canal de dinero/mentalidad con 4 meses de vida, 88% Shorts, y parado desde hace 8 semanas. Su fórmula real: el ángulo de "mecanismo psicológico + estatus" multiplica por 6-35x sobre "guía práctica genérica" en sus vídeos largos — comprobado con el catálogo completo, no con folclore de YouTube. Detalle completo en [`ANALISIS-EXITO-OCULTO.md`](ANALISIS-EXITO-OCULTO.md).
 
 2. **El riesgo número uno de este proyecto no es la calidad: es la desmonetización.** YouTube renombró su política de "contenido repetitivo" a **"contenido no auténtico"** el 15 de julio de 2025, apuntando a vídeo plantillado, producido en masa y sin aportación editorial real. **[SECUNDARIO]** El pipeline literal *ChatGPT → ElevenLabs → stock → subir* es la definición textual de lo que la política persigue. Tu instinto de "no quiero un canal de contenido vacío" no es una preferencia estética: es la condición de supervivencia económica del canal. Sección 6D y 7.
 

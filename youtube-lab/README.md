@@ -6,7 +6,7 @@ Investigación y herramientas para montar un canal de YouTube de negocios, facel
 
 **[INFORME.md](INFORME.md)** — el informe completo: análisis de mercado, subnichos, oportunidades, stack de IA, pipeline, costes y cinco propuestas de canal.
 
-> ⚠️ **Sobre el análisis de Éxito Oculto:** este entorno bloquea el acceso de red a YouTube y a todos los agregadores de estadísticas, así que no hay ni una métrica real de ese canal en el informe. En lugar de inventarlas, está escrita la herramienta que hace ese análisis en tu máquina en 15 minutos. Ver §2 del informe.
+**[ANALISIS-EXITO-OCULTO.md](ANALISIS-EXITO-OCULTO.md)** — radiografía real del canal de referencia, vía conector vidIQ: catálogo largo completo (8/8), muestra de 71 shorts, outlier scoring por cohorte y cruce de patrones de título contra rendimiento real. Hallazgo principal: **no es un canal de historias empresariales** (era la asunción de partida) sino de dinero/mentalidad, con 88% del catálogo en Shorts y parado desde hace 8 semanas.
 
 ## Herramienta: `yt_lab.py`
 
