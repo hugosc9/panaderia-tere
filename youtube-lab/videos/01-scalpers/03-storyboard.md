@@ -1,101 +1,66 @@
-# Storyboard — Scalpers
+# Storyboard — Scalpers (v2: identidad de robot-presentador)
 
-18 planos para ~10:30 min. Fuente por plano según el reparto de §4 del `PIPELINE-GRATIS.md`: la mayoría gráfico/genérico, IA solo en escenas sin rostro identificable, archivo real solo donde el derecho de uso esté confirmado.
+**Sustituye a la versión documental fotorrealista anterior.** El canal cambia de identidad visual: el robot mascota (`referencia-avatar-robot.png`, guardado en esta carpeta) pasa a ser el presentador recurrente en todos los vídeos, no solo en los gráficos.
 
-**Regla de oro de este storyboard, y de cualquier vídeo de este canal sobre gente real:** ningún fundador (Borja Vázquez, Alfonso Vivancos, Rafael Medina...) se genera con IA haciéndose pasar por él. O es una foto de archivo con derechos confirmados, o es un plano sin rostro (manos, escaparate, silueta a contraluz, texto en pantalla).
+Esto reposiciona el canal de "documental de archivo" a "explicador con mascota anfitriona" — mismo guion, mismo rigor factual, estética distinta. Detalle importante: **mezclar un personaje ilustrado con fondos fotorrealistas suele verse mal.** Por eso este storyboard cambia también los fondos: de "recreaciones fotorrealistas de 2007" a **fondos limpios de estudio + gráficos de datos**, con el robot como hilo conductor. Es más coherente visualmente y, siendo justos, más barato de producir.
 
-**Sobre el archivo real (fotos de prensa):** las fotos que aparecen en los artículos de modaes.com, elespanol.com, eleconomista.es **son propiedad de esos medios**, no de libre uso. Antes de usar cualquiera de esas imágenes en el vídeo:
-1. Comprueba si Scalpers tiene un kit de prensa propio con fotos de uso editorial permitido (buscar "Scalpers prensa" / "Scalpers press kit" en su web oficial).
-2. Si no lo hay, **no uses la foto del artículo** — sustitúyela por un `GRAFICO` (cita en pantalla con la fuente, o un mapa/gráfico) en vez de arriesgarte a un reclamo de derechos.
-3. La foto de la fachada de una tienda Scalpers tomada por un cliente cualquiera y subida a Google Maps/redes con licencia abierta sí es más segura, pero verifícalo igualmente antes de usarla.
+## Cómo generarlo en Whisk
+
+1. Sube `referencia-avatar-robot.png` como imagen de referencia en Whisk (no describas el robot de memoria — usa la imagen como base para que el estilo y el diseño se mantengan idénticos en las 15 escenas).
+2. Para cada escena, el prompt indica **qué pose usar de la hoja de referencia** + el fondo/contexto de esa escena.
+3. Guarda cada imagen como `plano-01.png`, `plano-02.png`, etc.
 
 ---
 
-| # | Timecode | Texto locutado (resumen) | Fuente | Detalle / prompt |
+| # | Timecode | Beat del guion | Pose (de la hoja de referencia) | Fondo / contexto |
 |---|---|---|---|---|
-| 1 | 0:00-0:08 | "Dos amigos fracasan con un lavadero de coches" | `IMAGEN_IA` | Ver prompt A |
-| 2 | 0:08-0:15 | "Concurso de acreedores. Liquidación." | `GRAFICO` | Texto en pantalla: "2007 · Concurso de acreedores" sobre fondo oscuro, tipografía documental |
-| 3 | 0:15-0:20 | "Hoy factura 220 millones al año" | `GRAFICO` | Cifra grande animada: "220.000.000 €" con contraste fuerte |
-| 4 | 0:20-0:45 | Sevilla 2007, se conocieron en un MBA | `IMAGEN_IA` | Ver prompt B |
-| 5 | 0:45-1:20 | Perfiles: abogado / ingeniero, cinco socios, capital 100.000€ | `GRAFICO` | Tarjetas tipo "ficha de personaje" sin foto real: iniciales o silueta + profesión + año, cinco tarjetas en fila |
-| 6 | 1:20-1:50 | 2007, a un año de la crisis financiera | `IMAGEN_IA` | Ver prompt C |
-| 7 | 1:50-2:20 | Moda masculina, mercado pequeño, competencia multiplicándose | `GRAFICO` | Gráfico de barras simple: "Moda masculina vs. moda femenina" (proporción de mercado, con nota "ilustrativo" si no hay cifra exacta) |
-| 8 | 2:20-2:50 | Alberto Artacho y la sastrería de camisas a medida | `IMAGEN_IA` | Ver prompt D |
-| 9 | 2:50-3:20 | El nombre "Scalpers", término bursátil, calavera como ruptura | `GRAFICO` | Animación tipográfica: la palabra "SCALPERS" apareciendo letra a letra sobre fondo negro, silueta de calavera minimalista |
-| 10 | 3:20-4:00 | De sastrería de barrio a marca internacional | `ARCHIVO*` | *Solo si hay derechos confirmados. Si no: `GRAFICO` — mapa de España con puntos apareciendo progresivamente |
-| 11 | 4:00-4:30 | 370 puntos de venta, 11 países, córners en El Corte Inglés | `GRAFICO` | Mapa mundial con 11 países iluminándose + contador "370" |
-| 12 | 4:30-5:00 | Scalpers Woman, 27% de la facturación | `GRAFICO` | Gráfico circular (dona): 27% Woman / 73% resto |
-| 13 | 5:00-5:20 | Scalpers LAB, cosmética genderless | `IMAGEN_IA` | Ver prompt E |
-| 14 | 5:20-5:30 | Canal digital: 800.000 usuarios, 23% de ventas | `GRAFICO` | Icono de móvil + contador ascendente "800.000" |
-| 15 | 5:30-6:20 | **Grieta (cerrada con hecho real):** 2017, cinco mercados a la vez, no funcionó | `GRAFICO` | **Ya no es una escena genérica de "dificultad" — anímalo literal:** mapa mundial con 5 puntos pequeños encendiéndose a la vez en países distintos, y apagándose uno a uno mientras suena la cita del fundador. Mucho más fuerte que una imagen IA ambigua |
-| 15b | 6:20-6:40 | La cita del fundador sobre equipos pequeños | `GRAFICO` | Cita en pantalla, estilo subtítulo grande: la frase completa de la fila #29, con atribución "— Borja Vázquez" |
-| 16 | 6:40-6:50 | Pararon: cerraron tiendas, descartaron operaciones | `IMAGEN_IA` | Ver prompt F (ajustado: ahora es "cierre deliberado", no "incertidumbre difusa") |
-| 17 | 6:50-8:40 | Giro: estrategia de la "mancha de aceite" | `GRAFICO` | **El plano más importante de generar bien.** Animación conceptual: un punto en un mapa que se expande como una mancha que crece despacio, cubriendo el territorio — literal, visual, fácil de entender en 3 segundos |
-| 18 | 8:40-10:00 | Consecuencia: 110M → 152M → 200M → 220M, expansión 2024-2025 | `GRAFICO` | Gráfico de barras ascendente con las 4 cifras, animado, cada barra apareciendo en su momento del guion |
-| 19 | 10:00-10:30 | Cierre: 88% en España, el capítulo que falta por escribir | `IMAGEN_IA` | Ver prompt G |
+| 1 | 0:00-0:08 | "Dos amigos fracasan con el lavadero" | Brazos cruzados, seria | Fondo oscuro liso, sin elementos — el robot solo, gesto serio |
+| 2 | 0:08-0:15 | "Concurso de acreedores. Liquidación." | *(sin robot — GRAFICO puro)* | Texto en pantalla: "2007 · Concurso de acreedores" |
+| 3 | 0:15-0:20 | "Hoy factura 220 millones" | **Señalando gráfico ascendente** (la de la esquina inferior derecha) | Fondo con el gráfico de barras subiendo detrás, cifra "220.000.000 €" animada |
+| 4 | 0:20-0:45 | Presentación de los fundadores | Saludando con la mano | Fondo limpio, cinco tarjetas de perfil (silueta+nombre+profesión) apareciendo a su lado |
+| 5 | 0:45-1:20 | Capital inicial: 100.000€ entre cinco | Sosteniendo la moneda dorada | Fondo con el número "100.000 €" grande |
+| 6 | 1:20-1:50 | 2007, un año antes de la crisis | Brazos cruzados | Línea de tiempo horizontal: "2007 — Scalpers" ... "2008 — Lehman Brothers", el robot junto a la línea |
+| 7 | 1:50-2:20 | Segunda tienda en Madrid | Caminando con maletín | Fondo con mapa de España, dos puntos (Sevilla → Madrid) encendiéndose |
+| 8 | 2:20-2:50 | La idea de la sastrería a medida | Con la bombilla de idea | Fondo limpio, icono de aguja/hilo apareciendo junto a él |
+| 9 | 2:50-3:20 | El nombre "Scalpers" y la calavera | *(sin robot — GRAFICO puro)* | Animación tipográfica: "SCALPERS" letra a letra, silueta de calavera minimalista |
+| 10 | 3:20-4:00 | 370 tiendas, 11 países | Señalando el gráfico ascendente | Mapa mundial con 11 países iluminándose + contador "370" |
+| 11 | 4:00-4:30 | Scalpers Woman, 27% de la facturación | Con la tablet | Gráfico de dona (27%/73%) apareciendo junto a él |
+| 12 | 4:30-5:00 | Scalpers LAB, canal digital 800.000 usuarios | Con el portátil, sentado en el escritorio | Icono de móvil + contador ascendente "800.000" |
+| 13 | 5:00-5:30 | Grieta: 2017, cinco mercados a la vez | Pensando, con la interrogación | Mapa mundial con 5 puntos encendiéndose a la vez en países distintos |
+| 14 | 5:30-6:20 | "No funciona..." — la cita del fundador | *(sin robot — GRAFICO puro)* | Cita en pantalla, estilo subtítulo grande, atribución "— Borja Vázquez" |
+| 15 | 6:20-6:40 | Pararon: cerraron tiendas | Brazos cruzados, seria | Los 5 puntos del mapa apagándose uno a uno |
+| 16 | 6:40-8:40 | Giro: estrategia "mancha de aceite" | Con la checklist (enfoque metódico) | **El plano más importante.** Animación de un punto en un mapa expandiéndose como una mancha, el robot con el clipboard al lado supervisando el proceso |
+| 17 | 8:40-10:00 | Consecuencia: 110M→152M→200M→220M | Señalando el gráfico ascendente (repetir pose 3, distinto fondo) | Gráfico de barras con las 4 cifras apareciendo una a una |
+| 18 | 10:00-10:30 | Cierre reflexivo | Sentado leyendo en el sillón | Fondo limpio, atenuado, cierre tranquilo |
 
-## Prompts de imagen (para Whisk, dentro de tu Google AI Plus — coste 0€ adicional)
+## Prompts listos (Whisk, con la imagen de referencia subida)
 
-Genéricos, sin rostros identificables de personas reales, en inglés (mejor rendimiento en los modelos de imagen), terminando con el estilo documental que ya usamos en el resto del canal:
-
-**Prompt A — Escena 1, el fracaso del lavadero:**
+**Escena 1:**
 ```
-Abandoned automated car wash facility, empty and closed, rusted equipment,
-overcast grey sky, a single "CERRADO" (closed) sign on the door, dramatic
-low-angle shot, muted desaturated colors, cinematic documentary,
-photorealistic, dramatic lighting, ultra-detailed, 8K
+Using the attached robot character reference, generate it in the "arms
+crossed" pose against a plain dark studio background, serious neutral
+expression, no other elements, clean 3D render, soft studio lighting,
+consistent with reference style, 8K
 ```
 
-**Prompt B — Escena 4, Sevilla 2007:**
+**Escena 3:**
 ```
-Seville Spain street scene in 2007, warm golden hour light, historic
-Andalusian architecture, two blurred silhouettes of young men walking and
-talking, shallow depth of field, nostalgic tone, cinematic documentary,
-photorealistic, dramatic lighting, ultra-detailed, 8K
-```
-
-**Prompt C — Escena 6, contexto de crisis:**
-```
-Empty Spanish shopping street in 2008, closed shop shutters, "SE ALQUILA"
-(for rent) signs, grey overcast atmosphere, economic recession mood,
-cinematic documentary, photorealistic, dramatic lighting, ultra-detailed, 8K
+Using the attached robot character reference, generate it in the "pointing
+at rising bar chart" pose, with a large ascending bar chart graphic behind
+it and the text "220.000.000 €" prominently displayed, clean studio
+background, consistent with reference style, 8K
 ```
 
-**Prompt D — Escena 8, la sastrería:**
+**Escena 4:**
 ```
-Close-up of hands measuring fabric for a bespoke shirt, tailor's workshop,
-scissors and thread on a wooden table, warm lamp lighting, no visible face,
-cinematic documentary, photorealistic, dramatic lighting, ultra-detailed, 8K
-```
-
-**Prompt E — Escena 13, Scalpers LAB:**
-```
-Minimalist genderless cosmetics product line on a dark reflective surface,
-matte black packaging with a small skull emblem, studio lighting, high-end
-product photography, cinematic documentary, photorealistic, dramatic
-lighting, ultra-detailed, 8K
+Using the attached robot character reference, generate it in the "waving
+hello" pose against a plain light studio background, with empty space to
+the left for five profile cards to be added in post, consistent with
+reference style, 8K
 ```
 
-**Prompt F — Escena 16, el cierre deliberado de tiendas:**
-```
-A retail storefront with the shutters halfway down at dusk, a "CLOSING
-DOWN" paper sign taped to the glass, empty street, a sense of deliberate
-retreat rather than failure, cinematic documentary, photorealistic,
-dramatic lighting, ultra-detailed, 8K
-```
+*(el resto de escenas siguen el mismo patrón: pose de la hoja + fondo descrito en la tabla — genera los 16 restantes con la misma estructura de prompt, cambiando solo pose y fondo)*
 
-**Prompt G — Escena 18, cierre:**
-```
-Modern flagship fashion store entrance at night, warm interior light
-spilling onto a European city street, closed for the day, sense of quiet
-ambition, cinematic documentary, photorealistic, dramatic lighting,
-ultra-detailed, 8K
-```
+## Nota sobre el cambio de identidad
 
-## Cómo generarlas, en la práctica
-
-1. App Gemini → **Whisk**.
-2. Pega cada prompt tal cual (en inglés funciona mejor).
-3. Guarda cada imagen como `plano-01.png`, `plano-04.png`, etc. — el número de escena, no el de orden de generación, para que cuadre con Remotion en el montaje.
-4. Son 7 imágenes IA de las 18 — el resto (10 gráficos + 1 archivo condicional) no consume tu cuota de Whisk/Flow, los hace Remotion.
-5. Aquí no he podido generarlas por ti: Higgsfield (conectado en esta sesión) está a 0 créditos, y Whisk no tiene conector — vive solo dentro de la app de Gemini. Son 5-10 minutos de tu parte.
+Esto **retira** el ángulo de diferenciación de "documental fotorrealista sin explotar" que identificamos en el informe general (§6C) frente al formato de mascota ilustrada, que ya usan Éxito Oculto y buena parte de los canales de finanzas en shorts. No es un error — es una decisión de identidad de marca distinta, y es tu decisión. Solo que conviene tenerlo explícito: el canal deja de competir en el hueco que habíamos detectado como menos saturado, y pasa a competir en un formato más poblado, con un asset visual genérico que otros canales probablemente ya usan. Si más adelante quieres un diseño de personaje propio (no un pack genérico), es el momento de plantearlo — antes de publicar el primer vídeo con esta cara, no después.
