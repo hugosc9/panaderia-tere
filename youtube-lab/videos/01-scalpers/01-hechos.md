@@ -35,22 +35,32 @@ Investigación por búsqueda web, 21/09/2026. **Todo aquí es [SECUNDARIO]**: so
 | 23 | Diversificación | Lanzamiento de Scalpers LAB, línea de cosmética "genderless" | 2024 | fashionunited.es | Secundaria |
 | 24 | Canal digital | Más de 800.000 usuarios fieles online; el canal digital representa el 23% de las ventas totales, +10% interanual | 2024 | fashionunited.es | Secundaria |
 | 25 | Concentración geográfica | El 88% de la facturación sigue viniendo de España; Europa y México son los pilares del desarrollo exterior | No fechado con precisión | modaes.com | Secundaria |
+| 26 | **Fecha exacta de fundación** | Primera tienda en Sevilla, septiembre de 2007 | Septiembre 2007 | carballar.com / optimaretail.eu | Secundaria — **cierra el hueco #2 anterior**: no hace falta matizar "en plena crisis", la fundación es un año antes del estallido de Lehman Brothers (sept. 2008) |
+| 27 | Expansión inmediata | Durante los primeros años, además de la tienda de Sevilla, abrieron una segunda en Madrid | Hacia 2007-2008 | optimaretail.eu | Secundaria |
+| 28 | **El hecho concreto de la Grieta** | En 2017, sin tener claro cuál sería su "segundo mercado", Scalpers abrió tiendas pequeñas simultáneamente en **cinco mercados internacionales distintos** para intentar averiguarlo. Según el propio Vázquez, no funcionó: ni les ayudó a ser relevantes en esos mercados ni les dio información suficiente para decidir cuál importaba de verdad | 2017 | emprendedores.es / entrevista citada por IMF Business School | Secundaria, pero **fechada con precisión y con reconocimiento explícito del fundador** — cierra el hueco #2 (antes era solo "hubo dificultades", ahora hay año, decisión y consecuencia |
+| 29 | **Cita casi textual del fundador** | "No funciona, es muy complicado manejar mercados distintos en diferentes geografías con equipos pequeños" — Borja Vázquez, refiriéndose al intento de 2017. En ese momento la plantilla era aprox. la mitad de los 1.300 empleados actuales | 2017 (declaración posterior) | emprendedores.es | Secundaria, reportada entre comillas por el medio — **no confirmado que sea cita literal verbatim de una grabación; tratar como "según declaró", no transcribirla como si viniera de un audio verificado por mí** |
+| 30 | Consecuencia del error de 2017 | Scalpers paralizó la expansión para digerir el crecimiento, cerró algunas tiendas abiertas en el extranjero y descartó nuevas operaciones corporativas. De ahí nació, en la etapa post-COVID, la estrategia de "mancha de aceite": crecer despacio desde un "círculo de confianza" | 2017-2018, estrategia post-COVID (≈2021+) | blogs.imf-formacion.com | Secundaria — **cierra el hueco #2 del todo: fecha, decisión, consecuencia y giro estratégico, los cuatro encadenados** |
 
 ## Cronología (hitos con fecha)
 
 - Antes de 2007 — Vázquez y Vivancos fracasan con un negocio de lavado de coches.
-- 2007 — Fundación de Scalpers en Sevilla, cinco socios, capital inicial de 100.000 €.
-- 2008-2009 (aprox.) — Crisis económica global; contexto de fundación/primeros años.
+- **Septiembre 2007** — Primera tienda de Scalpers, en Sevilla. Poco después, segunda tienda en Madrid.
+- 2008 — Estalla la crisis financiera global (Lehman Brothers, septiembre 2008) — Scalpers ya llevaba un año operando.
+- **2017** — Intento fallido de expansión simultánea a cinco mercados internacionales. Reconocido como error por el propio fundador.
+- 2017-2018 — Pausa de la expansión, cierre de tiendas abiertas en el extranjero.
+- ~2021+ (post-COVID) — Nace la estrategia de "mancha de aceite".
 - ~2022 — Facturación en torno a 110 M€.
 - 2023 — Facturación de 152 M€, después supera los 200 M€.
 - 2024 — Facturación de 220 M€ (+10%), 370 puntos de venta en 11 países, entrada en Costa Rica/Guatemala/Panamá.
 - 2025 (proyectado) — 35 nuevas aperturas planeadas, incluido flagship en Oporto.
 
-## Huecos de información — los 3 más importantes
+## Huecos de información — estado actualizado
 
-1. **La cifra exacta y la fecha exacta de cuándo Scalpers pasó de facturar X a Y** año a año — solo tengo 4 puntos sueltos (110M / 152M / 200M / 220M) sin una serie temporal completa. El Registro Mercantil (depósito de cuentas de la sociedad) daría la serie completa año a año — es la fuente primaria más obvia a abrir tú.
-2. **El momento concreto de la "grieta"**: no tengo un año o un hecho puntual de crisis interna (una tienda que cerró, una ronda de financiación tensa, una salida de un socio) — solo generalidades sobre "la crisis" y "la dificultad de gestionar mercados". Para que el bloque de Grieta del guion (§3.4) tenga fuerza narrativa, esto merece una búsqueda adicional o una entrevista concreta.
-3. **La cita textual completa** sobre la dificultad de gestionar mercados con equipos pequeños — la tengo parafraseada, no textual.
+1. **La serie completa de facturación año a año** — sigue pendiente. Solo tengo 4 puntos sueltos (110M / 152M / 200M / 220M). El Registro Mercantil daría la serie completa — sigue siendo la fuente primaria más obvia a abrir, y **sigue sin abrirse** en esta sesión.
+2. ~~El momento concreto de la grieta~~ — **cerrado** (filas #28-30): año 2017, decisión concreta (cinco mercados a la vez), reconocimiento explícito del fundador, y consecuencia (pausa + cierre de tiendas + nueva estrategia).
+3. ~~La cita textual completa~~ — **cerrado parcialmente** (fila #29): tengo la cita tal como la reporta el medio, pero no confirmado que sea transcripción verbatim de un audio — al guion como "según declaró", no como cita absolutamente literal verificada por mí.
+
+**Sigue sin cumplirse el requisito de autenticidad de §6D: ninguna fuente primaria (Registro Mercantil, entrevista en vídeo/podcast) se ha abierto directamente en esta sesión — todo es investigación por búsqueda web.** Antes de publicar, ese paso sigue siendo tuyo.
 
 ## Riesgo legal / reputacional
 

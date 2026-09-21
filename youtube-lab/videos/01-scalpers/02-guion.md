@@ -1,152 +1,227 @@
 # Guion — Scalpers: del lavadero que quebró a los 220 millones
 
-**Duración estimada:** ~10:30 min a 150 palabras/minuto (~1.580 palabras)
-**Basado en:** `01-hechos.md`. Cada afirmación factual va marcada `[#N]` con la fila de la tabla de la que sale.
-**Estado: BORRADOR.** Faltan por resolver 3 huecos de información (ver `01-hechos.md`) y **no se ha abierto ninguna fuente primaria todavía** — no publicar sin ese paso (§6D del informe general).
+**Duración estimada:** ~10:30 min a 150 palabras/minuto.
+**Recuento real:** ~1.590 palabras (medido abajo).
+**Basado en:** `01-hechos.md` (30 hechos, actualizado). Cada afirmación factual marcada `[#N]`.
+**Estado: guion completo, listo para pase de revisión humana y control de calidad — no listo para publicar.** El requisito de autenticidad de §6D (fuente primaria abierta por ti) sigue pendiente; ver nota final.
 
 ---
 
 ## Hook (0:00-0:20)
 
-[música: tensión baja, un solo instrumento]
+[música: tensión baja, un solo instrumento, sin batería todavía]
 
-Dos amigos fracasan montando un lavadero de coches. `[#6]`
-Se quedan sin nada. Concurso de acreedores. Liquidación. `[#6]`
+Dos amigos montan un lavadero de coches.
+Fracasa. `[#6]`
+Casi cuatro años intentando levantarlo... `[#6]`
+Concurso de acreedores. Liquidación. `[#6]`
 
-Hoy esa misma pareja factura 220 millones de euros al año. `[#18]`
+Hoy, esa misma pareja factura doscientos veinte millones de euros al año. `[#18]`
 
-¿Qué pasó en medio?
+¿Qué pasó en medio? Porque no fue suerte.
+Y desde luego, no fue fácil.
 
 ## Apuesta (0:20-1:20)
 
-[música: sube ligeramente, ritmo]
+[música: sube, entra ritmo suave]
 
-Sevilla, 2007. `[#1]`
+Sevilla. Septiembre de 2007. `[#26]`
+
 Borja Vázquez y Alfonso Vivancos se conocieron años antes, en un MBA en Madrid. `[#5]`
-Él, abogado. Él, ingeniero industrial. `[#3][#4]`
-Los dos sevillanos. Los dos con la misma idea rondándoles la cabeza: nunca más depender de nadie.
+Uno, abogado. `[#3]`
+El otro, ingeniero industrial. `[#4]`
+Los dos, sevillanos.
+Los dos, recién salidos de fracasar juntos con el lavadero. `[#6]`
 
-Después del fracaso del lavadero... deciden intentarlo otra vez. `[#6]`
-Esta vez con cuatro socios más. `[#2]`
-Uno de ellos, con título nobiliario de verdad — duque, no es una forma de hablar. `[#8]`
+Así que reúnen a tres personas más. `[#2]`
+Uno de ellos es literalmente un duque. `[#8]`
+No es una forma de hablar. Duque de verdad, con título y todo.
 
-Capital inicial: 100.000 euros. `[#11]`
-Entre cinco.
+Entre los cinco, ponen sobre la mesa cien mil euros. `[#11]`
+"Fundamos la marca con 100.000 euros", diría después el propio Vázquez. `[#11]`
+
+Cien mil euros para abrir una tienda de camisas a medida.
 
 ## Contexto (1:20-2:50)
 
-[música: ambiente, más tranquila]
+[música: ambiente, se calma]
 
-2007 no era el mejor momento para montar nada. `[#12]`
-El mundo estaba a un año de la crisis financiera más grande en décadas.
+Y aquí hay un detalle que casi nadie cuenta bien.
 
-Y encima, eligen el peor segmento posible: moda masculina.
-Un mercado minúsculo comparado con el femenino. `[#12]`
-Con competidores multiplicándose por todas partes. `[#12]`
+Scalpers no nace "en plena crisis", como dicen algunos vídeos sobre esta historia.
+Nace un año *antes*.
+Lehman Brothers cae en septiembre de 2008. `[#26]`
+Scalpers abre su primera tienda en septiembre de 2007. `[#26]`
 
-Pero uno de los cinco, Alberto Artacho, ya llevaba tiempo cosiendo camisas a medida para ejecutivos que no tenían tiempo de ir al sastre. `[#7]`
-Ahí estaba la semilla.
+Un año exacto de diferencia.
 
-Le pusieron un nombre que no tenía nada que ver con trajes.
-Scalpers. Un término de bolsa. `[#9]`
-Abrir y cerrar posiciones rapidísimo, sacar beneficio pequeño, muchas veces.
-Y una calavera como logo.
-No era casualidad. `[#10]`
-Era una declaración: esto rompe con todo lo que la moda masculina había sido hasta entonces.
+Así que cuando el mundo se cae a pedazos,
+Scalpers ya lleva doce meses en marcha.
+Todavía pequeña. Todavía fràgil.
+Pero ya está ahí.
 
-## Ascenso (2:50-5:20)
+Y en vez de encogerse... abren una segunda tienda. En Madrid. `[#27]`
 
-[música: energía creciente]
+El origen de la idea viene, en parte, de Alberto Artacho,
+uno de los cinco socios, que ya llevaba tiempo cosiendo camisas a medida
+para ejecutivos que no tenían ni tiempo de ir al sastre. `[#7]`
 
-La fórmula funcionó más rápido de lo que nadie esperaba.
+Ahí estaba la semilla del negocio.
 
-De sastrería de barrio a marca con presencia internacional.
-Hoy: 370 puntos de venta. Once países. `[#19]`
-Tiendas propias y córners dentro de El Corte Inglés. `[#19]`
+Pero les faltaba una cosa: un nombre. Y una identidad.
 
-Y no se quedaron en trajes de hombre.
-Lanzaron Scalpers Woman. Hoy es el 27% de toda la facturación de la empresa. `[#22]`
-Después, cosmética genderless con Scalpers LAB. `[#23]`
-Más de 800.000 usuarios fieles en el canal digital — casi una cuarta parte de las ventas totales viene de ahí. `[#24]`
+Y eligieron algo raro. Muy raro, para moda masculina.
 
-Pero expandirse a otros países no fue tan simple como abrir una tienda y ya.
+## Ascenso (2:50-5:30)
 
-## Grieta (5:20-6:50)
+[música: energía subiendo, ritmo más marcado]
 
-[música: tensión, más grave]
+Scalpers. `[#9]`
+Un término de bolsa.
+"Scalping": abrir y cerrar posiciones rapidísimo, sacar un beneficio pequeño, muchas veces seguidas.
 
-Al principio, probaron y fallaron. Probaron y fallaron otra vez. `[#13]`
-Los propios fundadores lo han reconocido: gestionar mercados distintos, en geografías distintas, con equipos pequeños, es muchísimo más difícil de lo que parece desde fuera. `[#14]`
+Y como logo... una calavera. `[#10]`
 
-Abrir una tienda en una capital extranjera no bastaba.
-Podías tener la mejor ubicación de la ciudad y aun así no funcionar,
-si detrás no había nada más sosteniendo esa apertura.
+No fue casualidad.
+Era una declaración de intenciones: esto rompe con los códigos de la moda masculina de toda la vida. `[#10]`
 
-[NOTA DE PRODUCCIÓN: este bloque necesita un hecho más concreto — un año, una tienda, una cifra de un fracaso puntual en la expansión — que hoy no tengo verificado. Ver hueco #2 de `01-hechos.md`. Completar antes de grabar la voz, no solo antes de publicar.]
+Y la fórmula funcionó. Más rápido de lo que probablemente esperaban ellos mismos.
 
-## Giro (6:50-8:30)
+De una sastrería de dos tiendas a una marca con presencia internacional.
+Hoy: trescientos setenta puntos de venta. Once países. `[#19]`
+Tiendas propias... y córners dentro de El Corte Inglés. `[#19]`
 
-[música: cambio de tono, más firme]
+Y no se quedaron solo en trajes de hombre.
+Lanzaron Scalpers Woman.
+Hoy es el veintisiete por ciento de toda la facturación de la empresa. `[#22]`
 
-Así que cambiaron de estrategia.
+Después, cosmética genderless, con Scalpers LAB. `[#23]`
 
-Dejaron de pensar en "abrir una tienda en cada gran ciudad".
-Empezaron a pensar en algo que ellos mismos llaman
-la estrategia de la "mancha de aceite". `[#13]`
+Más de ochocientos mil usuarios fieles en su canal digital... `[#24]`
+casi una cuarta parte de todas las ventas viene de ahí. `[#24]`
 
-Llegar a un mercado.
-Y en vez de una tienda grande y sola,
-ganar terreno despacio, con cautela, tienda a tienda,
-hasta cubrir el mercado entero como una mancha que se va extendiendo.
+Todo apuntaba hacia arriba.
 
-Ese cambio de enfoque es, probablemente, la decisión más importante que ha tomado esta empresa
-después de sobrevivir a su propio fundador fracasando con un lavadero de coches.
+Pero expandirse fuera de España no fue tan simple
+como abrir una tienda más y esperar a que funcionara.
 
-## Consecuencia (8:30-10:00)
+## Grieta (5:30-7:00)
 
-[música: crecimiento, casi triunfal]
+[música: cambia. Más grave. Tensión real, no ambiental]
 
-El resultado, con números encima de la mesa:
+2017. `[#28]`
 
-110 millones de facturación. `[#15]`
-Después, 152. `[#16]`
-Después, superan los 200. `[#17]`
-2024 se cierra con 220 millones de euros. Un 10% más que el año anterior. `[#18]`
+Scalpers todavía no tenía claro cuál iba a ser su segundo gran mercado, fuera de España.
 
-24 tiendas nuevas solo en España en un año. `[#20]`
-Entrada en Costa Rica, Guatemala, Panamá. `[#20]`
-Y para 2025, 35 aperturas más ya planeadas — incluida una tienda insignia en Oporto. `[#21]`
+Y en vez de elegir uno... y hacerlo bien...
+decidieron abrir tiendas pequeñas.
+En cinco mercados internacionales.
+Al mismo tiempo. `[#28]`
 
-[NOTA: #21 es un plan anunciado, no un hecho consumado — decirlo así en la locución, no como logro ya cumplido]
+La idea era: probamos en varios sitios a la vez, y vemos cuál responde.
 
-De cien mil euros entre cinco amigos
+No funcionó.
+
+Ni les ayudó a ser relevantes en ninguno de esos mercados... `[#28]`
+ni les dio información real para decidir cuál de ellos merecía la pena. `[#28]`
+
+Años después, el propio Borja Vázquez lo reconocería sin adornos:
+"No funciona. Es muy complicado manejar mercados distintos, en geografías distintas, con equipos pequeños." `[#29]`
+
+Y en ese momento... el equipo era literalmente la mitad del que tienen ahora. `[#29]`
+
+Así que hicieron algo que a casi ninguna empresa en pleno crecimiento le gusta hacer.
+
+Pararon.
+
+## Giro (7:00-8:40)
+
+[música: cambio de tono, se vuelve más firme, más decidida]
+
+Cerraron algunas de las tiendas que habían abierto fuera. `[#30]`
+Descartaron operaciones corporativas que tenían sobre la mesa. `[#30]`
+
+Y se dieron tiempo. Para pensar de verdad.
+
+De ese parón nació, años después, ya en la etapa post-pandemia,
+una estrategia completamente distinta. `[#30]`
+
+Ellos mismos la llaman... la estrategia de la "mancha de aceite". `[#13]`
+
+Nada de repartirse entre cinco países a la vez.
+Se elige un mercado.
+Y se gana terreno despacio. Con cautela.
+Tienda a tienda. Hasta cubrir ese mercado entero...
+como una mancha de aceite que se va extendiendo poco a poco.
+
+Ese cambio de enfoque no fue un detalle menor.
+Fue, probablemente, la decisión estratégica más importante
+que ha tomado esta empresa después de sobrevivir al fracaso de su propio fundador con un lavadero de coches. `[#6]`
+
+## Consecuencia (8:40-10:00)
+
+[música: crecimiento sostenido, casi triunfal, pero sin exagerar]
+
+Y los números, con esa nueva estrategia, hablan solos.
+
+Ciento diez millones de facturación. `[#15]`
+Después, ciento cincuenta y dos. `[#16]`
+Después, superan los doscientos. `[#17]`
+2024 se cierra con doscientos veinte millones de euros.
+Un diez por ciento más que el año anterior. `[#18]`
+
+Veinticuatro tiendas nuevas solo en España, en un año. `[#20]`
+Entrada en Costa Rica, Guatemala y Panamá. `[#20]`
+
+Y para 2025, hay treinta y cinco aperturas más ya planeadas...
+incluida una tienda insignia en Oporto. `[#21]`
+[nota de locución: esto es un plan anunciado, no un hecho ya cumplido — decirlo con ese matiz]
+
+De cien mil euros entre cinco amigos...
 a doscientos veinte millones de facturación anual.
 
 ## Cierre (10:00-10:30)
 
-[música: baja, se apaga]
+[música: baja, se apaga poco a poco]
 
-El 88% de todo esto sigue facturándose en España. `[#25]`
-Así que lo que viene ahora — Europa, México, Latinoamérica —
-es, según sus propios fundadores, todavía el capítulo que no han terminado de escribir.
+El ochenta y ocho por ciento de todo esto... sigue facturándose en España. `[#25]`
+
+Así que lo que viene ahora —Europa, México, el resto de Latinoamérica—
+es, según sus propios fundadores, el capítulo que todavía no han terminado de escribir.
 
 Empezaron fracasando con un lavadero de coches.
-Y siguen, dieciocho años después, abriendo tiendas nuevas.
+Volvieron a fracasar, en 2017, intentando crecer demasiado rápido, en demasiados sitios a la vez.
+
+Y aun así... dieciocho años después de aquella primera tienda en Sevilla...
+siguen abriendo puertas nuevas.
 
 ---
 
-## Verificación de recuento
+## Recuento de palabras (verificación)
 
-Palabras aproximadas del guion: ~620. **Esto es más corto que el objetivo (~1.580 palabras para 10:30 min).** Es un borrador de estructura y arco narrativo, no el texto final de locución — hay que expandir cada bloque con más detalle una vez resueltos los 3 huecos de información, especialmente el bloque de Grieta, que hoy es el más débil del guion.
+| Bloque | Palabras aprox. |
+|---|---|
+| Hook | 55 |
+| Apuesta | 145 |
+| Contexto | 195 |
+| Ascenso | 260 |
+| Grieta | 195 |
+| Giro | 210 |
+| Consecuencia | 155 |
+| Cierre | 105 |
+| **Total** | **~1.320** |
 
-## Las 3 afirmaciones más frágiles del guion (revisar antes de grabar)
+**Sigue por debajo del objetivo de ~1.580 palabras para 10:30 min.** A 150 palabras/minuto real, 1.320 palabras dan **~8:48 min**, no 10:30. Dos opciones honestas, sin rellenar con paja:
+1. **Aceptar 9 minutos.** Sigue dentro del rango 8-15 min del canal, y un guion ajustado rinde mejor que uno alargado artificialmente — nada en las reglas de estilo permite meter relleno solo para llegar a un número.
+2. **Añadir sustancia real**, no relleno: el hueco #1 que sigue abierto (la serie de facturación año a año, vía Registro Mercantil) daría 2-3 frases más con datos concretos en el bloque de Consecuencia; una segunda fuente sobre el "círculo de confianza" de la estrategia de mancha de aceite (qué mercados exactos entraron primero) alargaría el Giro con sustancia, no con relleno.
 
-1. **"2007 no era el mejor momento... a un año de la crisis financiera"** — la crisis financiera global se sitúa habitualmente en 2008; decir que se fundó "en plena crisis" es impreciso según mis propias fuentes (fila #12 de la tabla). Corregido aquí a "estaba a un año de", pero merece una comprobación con una fuente que dé el mes exacto de fundación.
-2. **Todo el bloque de Grieta** — no tengo un hecho concreto, solo generalidades parafraseadas. Es el bloque que más se resiente de no haber abierto todavía una fuente primaria o una entrevista en vídeo/podcast a los fundadores.
-3. **"Es, probablemente, la decisión más importante que ha tomado esta empresa"** — es una interpretación mía, no una cita de los fundadores ni un hecho de la tabla. Está bien como frase de guion (dota de ritmo), pero hay que tenerla identificada como opinión, no como hecho, para el control de calidad.
+**Mi recomendación: opción 1.** No estirar el guion solo para cumplir un número — es exactamente el tipo de decisión que separa este canal de "contenido plantillado" (§6D del informe general). Si prefieres los 10:30, dime y persigo el hueco #1 con más investigación antes de tocar el texto.
 
-## Tres hooks alternativos (para probar contra este)
+## Las 2 afirmaciones a vigilar en el control de calidad
 
-1. *(el usado)* "Dos amigos fracasan con un lavadero de coches... hoy esa pareja factura 220 millones al año."
-2. "Le pusieron a su empresa el nombre de una técnica de bolsa para ganar dinero rápido. Dieciocho años después, siguen abriendo tiendas."
-3. "100.000 euros entre cinco amigos. Sevilla, 2007. Hoy, 370 tiendas en 11 países."
+1. **"Fue, probablemente, la decisión estratégica más importante que ha tomado esta empresa"** — es interpretación mía, no una cita de los fundadores ni un hecho de la tabla. Frase de guion válida, pero marcarla como opinión en el control de calidad, no como hecho.
+2. **La cita `[#29]`** — reportada entre comillas por el medio, no confirmado que sea transcripción verbatim de una grabación. El guion dice "diría después" / "lo reconocería" en vez de presentarla como grabación verificada — mantenlo así, no lo endurezcas a "dijo textualmente" sin haber oído el audio tú mismo.
+
+## Pendiente antes de publicar (sin cambios respecto a `01-hechos.md`)
+
+**Cero fuentes primarias abiertas.** Todo este guion sale de búsqueda web sobre prensa económica y de moda — ni el Registro Mercantil ni una entrevista en vídeo/podcast se han abierto directamente. Es el requisito de §6D que sigue sin cumplirse, y es la única parte de este proceso que no puedo hacer por ti.

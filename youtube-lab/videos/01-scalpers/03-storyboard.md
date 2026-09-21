@@ -26,11 +26,13 @@
 | 11 | 4:00-4:30 | 370 puntos de venta, 11 países, córners en El Corte Inglés | `GRAFICO` | Mapa mundial con 11 países iluminándose + contador "370" |
 | 12 | 4:30-5:00 | Scalpers Woman, 27% de la facturación | `GRAFICO` | Gráfico circular (dona): 27% Woman / 73% resto |
 | 13 | 5:00-5:20 | Scalpers LAB, cosmética genderless | `IMAGEN_IA` | Ver prompt E |
-| 14 | 5:20-6:00 | Canal digital: 800.000 usuarios, 23% de ventas | `GRAFICO` | Icono de móvil + contador ascendente "800.000" |
-| 15 | 6:00-6:50 | Grieta: prueba y error en la expansión internacional | `IMAGEN_IA` | Ver prompt F — **este bloque sigue débil en el guion (falta un hecho concreto), genera el plano pero no lo des por definitivo hasta cerrar el hueco de investigación** |
-| 16 | 6:50-8:00 | Giro: estrategia de la "mancha de aceite" | `GRAFICO` | **El plano más importante de generar bien.** Animación conceptual: un punto en un mapa que se expande como una mancha que crece despacio, cubriendo el territorio — literal, visual, fácil de entender en 3 segundos |
-| 17 | 8:00-9:30 | Consecuencia: 110M → 152M → 200M → 220M, expansión 2024-2025 | `GRAFICO` | Gráfico de barras ascendente con las 4 cifras, animado, cada barra apareciendo en su momento del guion |
-| 18 | 9:30-10:30 | Cierre: 88% en España, el capítulo que falta por escribir | `IMAGEN_IA` | Ver prompt G |
+| 14 | 5:20-5:30 | Canal digital: 800.000 usuarios, 23% de ventas | `GRAFICO` | Icono de móvil + contador ascendente "800.000" |
+| 15 | 5:30-6:20 | **Grieta (cerrada con hecho real):** 2017, cinco mercados a la vez, no funcionó | `GRAFICO` | **Ya no es una escena genérica de "dificultad" — anímalo literal:** mapa mundial con 5 puntos pequeños encendiéndose a la vez en países distintos, y apagándose uno a uno mientras suena la cita del fundador. Mucho más fuerte que una imagen IA ambigua |
+| 15b | 6:20-6:40 | La cita del fundador sobre equipos pequeños | `GRAFICO` | Cita en pantalla, estilo subtítulo grande: la frase completa de la fila #29, con atribución "— Borja Vázquez" |
+| 16 | 6:40-6:50 | Pararon: cerraron tiendas, descartaron operaciones | `IMAGEN_IA` | Ver prompt F (ajustado: ahora es "cierre deliberado", no "incertidumbre difusa") |
+| 17 | 6:50-8:40 | Giro: estrategia de la "mancha de aceite" | `GRAFICO` | **El plano más importante de generar bien.** Animación conceptual: un punto en un mapa que se expande como una mancha que crece despacio, cubriendo el territorio — literal, visual, fácil de entender en 3 segundos |
+| 18 | 8:40-10:00 | Consecuencia: 110M → 152M → 200M → 220M, expansión 2024-2025 | `GRAFICO` | Gráfico de barras ascendente con las 4 cifras, animado, cada barra apareciendo en su momento del guion |
+| 19 | 10:00-10:30 | Cierre: 88% en España, el capítulo que falta por escribir | `IMAGEN_IA` | Ver prompt G |
 
 ## Prompts de imagen (para Whisk, dentro de tu Google AI Plus — coste 0€ adicional)
 
@@ -74,12 +76,12 @@ product photography, cinematic documentary, photorealistic, dramatic
 lighting, ultra-detailed, 8K
 ```
 
-**Prompt F — Escena 15, la grieta:**
+**Prompt F — Escena 16, el cierre deliberado de tiendas:**
 ```
-A single retail store front on an unfamiliar foreign city street at dusk,
-looking slightly out of place, isolated, empty sidewalk, sense of
-uncertainty, cinematic documentary, photorealistic, dramatic lighting,
-ultra-detailed, 8K
+A retail storefront with the shutters halfway down at dusk, a "CLOSING
+DOWN" paper sign taped to the glass, empty street, a sense of deliberate
+retreat rather than failure, cinematic documentary, photorealistic,
+dramatic lighting, ultra-detailed, 8K
 ```
 
 **Prompt G — Escena 18, cierre:**
