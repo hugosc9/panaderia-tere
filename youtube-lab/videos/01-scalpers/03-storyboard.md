@@ -64,3 +64,11 @@ reference style, 8K
 ## Nota sobre el cambio de identidad
 
 Esto **retira** el ángulo de diferenciación de "documental fotorrealista sin explotar" que identificamos en el informe general (§6C) frente al formato de mascota ilustrada, que ya usan Éxito Oculto y buena parte de los canales de finanzas en shorts. No es un error — es una decisión de identidad de marca distinta, y es tu decisión. Solo que conviene tenerlo explícito: el canal deja de competir en el hueco que habíamos detectado como menos saturado, y pasa a competir en un formato más poblado, con un asset visual genérico que otros canales probablemente ya usan. Si más adelante quieres un diseño de personaje propio (no un pack genérico), es el momento de plantearlo — antes de publicar el primer vídeo con esta cara, no después.
+
+## Upgrade futuro: HappyHorse 1.0 (Alibaba)
+
+Evaluado el 25/09/2026, no usado en este vídeo por decisión del usuario (coste cero por ahora). Es un modelo de vídeo real y de primer nivel (nº1 en Artificial Analysis en texto-a-vídeo e imagen-a-vídeo, abril 2026) con una función que resolvería justo el problema de este storyboard: **identidad de personaje persistente entre planos** — en vez de generar cada pose del robot por separado en Whisk (sin garantía de que salga idéntico cada vez), HappyHorse mantiene el mismo personaje coherente a lo largo de una secuencia multi-plano.
+
+**No es gratis:** ~0,80 $/segundo vía fal.ai (partner de API oficial), 0,57-4,20 $ por vídeo según duración. **Aviso:** varios dominios (`happyhorsee.io`, `hppyhorse.com`, `happy-horse.art` y similares) se anuncian como "gratis e ilimitado" aprovechando el lanzamiento — patrón típico de webs clon/SEO-farm cuando un modelo se vuelve viral. Si en el futuro se usa, que sea vía fal.ai o Alibaba Cloud Bailian directamente, nunca por una de esas webs genéricas.
+
+Candidato a revisar cuando el canal tenga presupuesto: sustituiría los planos con el robot (13 de las 18 escenas) por una o dos generaciones multi-plano de HappyHorse, con consistencia garantizada, en vez de 13 generaciones sueltas en Whisk.
